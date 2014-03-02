@@ -1,0 +1,274 @@
+/* Resume
+======================================================= */
+body#resume {
+
+
+  section {
+    width:50%;
+    max-width:700px;
+    margin:0 auto 250px;
+
+    h2 {
+      margin-bottom:95px;
+      letter-spacing: 0.15em;
+      text-align: left;
+      font-size: 3.5em;
+      padding-bottom:15px;
+      border-bottom:1px solid $grey;
+      &:after {
+//				content:'';
+        width:100%;
+        max-width: 35px;
+        height: 2px;
+        margin: 21px auto 0;
+        background: $grey;
+        display: block;
+      }
+    }
+
+    a {
+      color:$orange;
+      text-decoration:none;
+      text-transform: uppercase;
+      font-size: 0.8em;
+      letter-spacing: 0.1em;
+      @include lato-7;
+    }
+
+    p {
+      margin-bottom: 15px;
+      line-height: 1.5em;
+      font-size: 1.9em;
+    }
+
+    article {
+      padding-bottom:110px;
+      margin-bottom: 110px;
+      border-bottom:1px solid $grey;
+
+      h3 {
+        font-size: 1.9em;
+        margin-bottom: 8px;
+        text-align: left;
+
+        &.degree {text-align:center;}
+      }
+      .position,
+      .school {
+        margin-bottom: 15px;
+        text-align: left;
+        text-transform: uppercase;
+        color:$blue;
+        letter-spacing: 0.2em;
+        font-size: 1.4em;
+        @include lato-4;
+      }
+      .school {text-align:center;}
+
+      .description {}
+      .specs {
+        .links {margin-bottom: 0;}
+        span {
+          margin-right:10px;
+          text-transform: uppercase;
+          font-size: 0.75em;
+          letter-spacing: 0.1em;
+          @include lato-7;
+        }
+        &.education p {text-align:center;}
+
+        &.qualifications {
+          margin-bottom:0;
+
+          h3 {
+            margin-bottom: 10px;
+            letter-spacing: 0.13em;
+          }
+
+          ul {
+            width:100%;
+            text-align: left;
+            margin-bottom: 70px;
+
+            li {
+              list-style:none;
+              display: inline-block;
+              margin:0 3px 4px 0;
+              border:1px solid $grey;
+              padding:12px 15px;
+              font-size: 1.7em;
+              color:$dark-grey;
+              @include lato-3;
+              @include ease;
+            }
+          }
+          a {
+            color:$blue;
+            @include lato-4;
+            &:hover {color:$orange;}
+          }
+        }
+      }
+    }
+    &#resume-intro {
+      width:100%;
+      max-width: none;
+      margin:0 0 150px;
+      position: relative;
+
+      h1 {
+        width:60%;
+        max-width:860px;
+        margin-bottom:15px;
+        color:$black;
+        letter-spacing: 0.18em;
+        text-align: left;
+        display: inline-block;
+        font-size: 2.2em;
+        border-bottom:1px solid $grey;
+        padding-bottom:10px;
+
+        span {
+          margin-left:5px;
+          font-size: 0.55em;
+          letter-spacing: 0.15em;
+          color:$blue;
+          @include lato-4;
+        }
+      }
+      p {
+        width:60%;
+        max-width:860px;
+        margin:0 auto;
+        font-size: 2.1em;
+        line-height: 1.4em;
+        color:$black;
+        @include os-3;
+//				@include lato-1;
+//				text-transform:uppercase;
+      }
+      .icon {
+        position: absolute;
+        left:0;
+        right:0;
+        bottom:60px;
+        font-size: 2.5em;
+        color:$grey;
+      }
+    }
+    &#resume-experience {
+      margin-bottom:0px;
+
+      article {
+        &:last-child {
+          margin-bottom:0;
+//					padding-bottom:0;
+//					border:none;
+        }
+      }
+    }
+    &#resume-education {
+      margin:300px auto 350px;
+      padding-bottom:0;
+
+      h2 {
+        border: none;
+        text-align: center;
+        margin-bottom: 65px;
+        font-size: 3.2em;
+      }
+      article {
+        border:none;
+        margin-bottom:70px;
+        padding-bottom:0;
+      }
+    }
+    &#resume-qualifications {
+      margin-bottom: 0;
+      h2 {
+        margin-bottom: 70px;
+        text-align: left;
+        &:after {content:none;}
+      }
+      article {margin-bottom:0;}
+    }
+    &#resume-hire {
+      margin:0 auto;
+      a {
+        cursor: pointer;
+        display: block;
+        min-width: 130px;
+        width: 20%;
+        margin: 0 auto;
+        border:1px solid $blue;
+        padding:20px 25px;
+        color:$blue;
+        font-size: 2em;
+        @include lato-3;
+        &:hover {
+          border-color:$orange;
+          color:$orange;
+        }
+      }
+      form {
+        margin-top:60px;
+        opacity: 0;
+        height:0;
+        @include ease;
+
+        &.active {
+          opacity:1;
+          height: auto;
+        }
+
+        #form-url {display:none;}
+
+        input[type="text"],
+        textarea {
+          $width:95%;
+          $padding:(100% - $width) / 2;
+          width:$width;
+          padding:20px $padding;
+          margin-bottom:15px;
+          border:1px solid $grey;
+          background:none;
+          color:$dark-grey;
+          text-transform: uppercase;
+          font-size: 1.6em;
+          letter-spacing: 0.1em;
+          @include lato-3;
+          @include ease;
+
+          &:active,
+          &:focus {
+            background:$light-grey;
+            border-color:$blue;
+            outline: none;
+          }
+        }
+        textarea {
+          height:200px;
+          resize: none;
+        }
+        input[type="submit"] {
+          margin:0;
+          float: right;
+          background:none;
+          border:1px solid $orange;
+          padding:15px 28px;
+          color:$orange;
+          font-size: 1.8em;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          @include lato-3;
+          @include ease;
+
+          &:hover {
+            border-color:$blue;
+            color:$blue;
+          }
+        }
+      }
+    }
+  }
+}

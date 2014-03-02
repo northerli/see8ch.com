@@ -1,0 +1,48 @@
+
+//-- Novecento --//
+@import "fonts/_novecento";
+
+@mixin nov-bold { font-family:'Novecentowide-Bold'; }
+@mixin nov-demi { font-family:'Novecentowide-Demibold'; }
+@mixin nov-med { font-family:'Novecentowide-Medium'; }
+@mixin nov-book { font-family:'Novecentowide-Book'; }
+@mixin nov-norm { font-family:'Novecentowide-Normal'; }
+@mixin nov-light { font-family:'Novecentowide-Light'; }
+
+
+
+//-- Open Sans --//
+@mixin os-8 {font-family:'Open Sans';font-weight:800;}
+@mixin os-8-i {font-family:'Open Sans';font-weight:800;font-style:italic;}
+
+@mixin os-7 {font-family:'Open Sans';font-weight:700;}
+@mixin os-7-i {font-family:'Open Sans';font-weight:700;font-style:italic;}
+
+@mixin os-6 {font-family:'Open Sans';font-weight:600;}
+@mixin os-6-i {font-family:'Open Sans';font-weight:600;font-style:italic;}
+
+@mixin os-4 {font-family:'Open Sans';font-weight:400;}
+@mixin os-4-i {font-family:'Open Sans';font-weight:400;font-style:italic;}
+
+@mixin os-3 {font-family:'Open Sans';font-weight:300;}
+@mixin os-3-i {font-family:'Open Sans';font-weight:300;font-style:italic;}
+
+
+
+//-- Lato --//
+@mixin lato-1 {font-family: 'Lato', sans-serif; font-weight:100;}
+@mixin lato-1-i {font-family: 'Lato', sans-serif; font-weight:100;font-style:italic;}
+
+@mixin lato-3 {font-family: 'Lato', sans-serif; font-weight:300;}
+@mixin lato-3-i {font-family: 'Lato', sans-serif; font-weight:300;font-style:italic;}
+
+@mixin lato-4 {font-family: 'Lato', sans-serif; font-weight:400;}
+@mixin lato-4-i {font-family: 'Lato', sans-serif; font-weight:400;font-style:italic;}
+
+@mixin lato-7 {font-family: 'Lato', sans-serif; font-weight:700;}
+@mixin lato-7-i {font-family: 'Lato', sans-serif; font-weight:700;font-style:italic;}
+
+@mixin lato-9 {font-family: 'Lato', sans-serif; font-weight:900;}
+@mixin lato-9-i {font-family: 'Lato', sans-serif; font-weight:900;font-style:italic;}
+
+

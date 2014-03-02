@@ -1,0 +1,345 @@
+
+
+/* Links and Headers
+======================================================= */
+a {
+	color:$link-color;
+	@include ease(333ms);
+
+	&:focus, &:hover, &:active {outline: 0;}
+	&:hover {color:$link-hover-color;}
+}
+
+h1, h2, h3, h4, h5 {
+	color:$headline-color;
+	letter-spacing:0.21em;
+	text-transform:uppercase;
+	@include lato-7;
+}
+
+h1 {font-size:4.15em;}
+h2 {font-size:3.25em;}
+h3 {font-size:2.25em;}
+h4 {font-size:1.45em;}
+h5 {font-size:1em;}
+
+p {
+	font-size: 1.5em;
+	text-align:left;
+	@include os-3;
+}
+
+
+/* Main Body Styles
+======================================================= */
+body {
+	font-size:62.5%;
+	color:$body-copy-color;
+	background:$light-grey;
+	letter-spacing:0.06em;
+//	@include lato-4;
+	@include os-3;
+}
+
+
+#responsive-coming-soon {
+	display:none;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background:$blue;
+	color:white;
+	text-align:center;
+	padding-top:100px;
+	z-index:999999;
+
+	@media screen and (max-width: 600px) {
+		display: block;
+	}
+}
+
+
+/* Header/Logo and Tagline
+======================================================= */
+nav {
+	background:$blue;
+	position:fixed;
+	width:35px;
+	right:0;
+	top:0;
+	bottom:0;
+	z-index:9999;
+	@include ease;
+
+	// Default Hover State
+	&:hover {
+		width:50px;
+
+		#nav-open {
+			opacity:1;
+			padding-left:15px;
+
+			svg {
+				width:23px;
+				height: 20px;
+			}
+		}
+	}
+	#nav-open,
+	#nav-close {
+		pointer-events:auto;
+		cursor: pointer;
+		position:absolute;
+		z-index: 9999;
+		@include ease;
+	}
+	#nav-open {
+		width: 100%;
+		padding:20px 0 30px 9px;
+		color:white;
+		opacity: 0.5;
+
+		svg {
+			width: 20px;
+			height: 16px;
+			position: relative;
+			@include ease;
+
+			.burger {fill:white;}
+		}
+	}
+	#nav-close {
+		opacity: 0;
+		pointer-events:none;
+		position: absolute;
+		left: -32px;
+		top: 17px;
+		color:darken($grey, 10%);
+		font-size: 2em;
+		@include lato-9;
+
+		&:hover {color:$red;}
+	}
+	// Navigation List Items
+	a {
+		text-decoration: none;
+
+		li {
+			opacity: 0;
+			list-style: none;
+			padding:15px 23px;
+			color:$dark-grey;
+			font-size:1.2em;
+			text-transform: uppercase;
+			letter-spacing: 0.2em;
+			@include lato-4;
+			@include ease;
+
+			// Nav Item Arrows
+			span {
+				float:right;
+				margin-right:10px;
+				opacity:0;
+				color:lighten($blue, 18%);
+				@include ease;
+			}
+			// Footer Copyright
+			&#copyright {
+				position:absolute;
+				bottom:10px;
+				padding:0;
+				text-align: center;
+				width:100%;
+				font-size: 0.8em;
+			}
+			// Navigation Hover State
+			&:hover {
+				background:$blue;
+				color:white;
+
+				span {
+					margin-right:0;
+					opacity:1;
+				}
+			}
+		}
+
+		// Divider in Navigation List
+		&:nth-child(7) {
+//			li {border-top:1px solid #3f3f3f;}
+		}
+	}
+
+	// Active State
+	&.active {
+		width:330px;
+		background:$black;
+
+		#nav-open {
+			opacity: 0;
+			pointer-events:none;
+		}
+		#nav-close {
+			pointer-events:auto;
+			opacity: 1;
+
+			&:hover {}
+		}
+		a {
+			li {
+				cursor: pointer;
+				opacity: 1;
+			}
+		}
+	}
+}
+
+#back-btn {
+	position:fixed;
+	z-index:9999;
+	top:20px;
+	left:20px;
+	font-size:1.25em;
+	letter-spacing:0.1em;
+	color:$grey;
+	text-transform:uppercase;
+	text-decoration:none;
+	@include lato-3;
+
+	span {
+		position: relative;
+		bottom:-4px;
+		margin-right:3px;
+		font-size:2em;
+	}
+	&:hover {
+		color:$orange;
+	}
+}
+
+/* Home Page
+======================================================= */
+body#home {
+	overflow:hidden;
+
+	#back-btn {display:none;}
+
+	h1 {
+		margin-bottom:8px;
+		color:$black;
+		letter-spacing: 0.2em;
+	}
+
+	h4 {
+		color:$blue;
+		@include lato-4;
+	}
+
+	#location {
+		display: block;
+		position:absolute;
+		bottom:80px;
+		width:100%;
+		text-align: center;
+		cursor: pointer;
+		text-decoration: none;
+
+		img.icon {
+			margin-bottom: 10px;
+			width:15px;
+			@include ease;
+		}
+
+		p {
+			text-transform: uppercase;
+			color:$dark-grey;
+			letter-spacing: 0.2em;
+			font-size: 1em;
+			text-align: center;
+			@include lato-3;
+			@include ease;
+		}
+
+		&:hover {
+			img.icon {width:18px;}
+
+			// Nudge Map
+			+ svg.mtn-icon {bottom:0;}
+		}
+	}
+
+	// Mountain Icon
+	svg.mtn-icon {
+		position:absolute;
+		bottom:-38px;
+		left:0;
+		right:0;
+		width:105px;
+		height:38px;
+		margin:0 auto;
+		z-index: -9999;
+		@include ease;
+
+		.mtn-poly {fill:darken($grey, 3%);}
+	}
+}
+
+
+
+/* Submitted Message
+======================================================= */
+
+body#hire-sent {
+	.content-wrapper {
+		h2 {margin-bottom:5px;}
+		p {
+			text-align:center;
+			margin-bottom:35px;
+			color:$dark-grey;
+		}
+		a {
+			text-decoration: none;
+			text-transform: uppercase;
+			color:$blue;
+			font-size: 1.5em;
+			@include lato-7;
+
+			&:hover {color:$orange;}
+		}
+	}
+}
+
+
+
+/* Content
+======================================================= */
+.content-wrapper {
+	width:100%;
+	text-align:center;
+}
+
+
+
+/* Footer
+======================================================= */
+footer {
+}
+
+
+
+
+
+
+/* Selection Colors
+======================================================= */
+::selection {
+	background:$highlight-bkgd-color;
+	color:$highlight-color;
+}
+
+::-moz-selection {
+	background:$highlight-bkgd-color;
+	color:$highlight-color;
+}
