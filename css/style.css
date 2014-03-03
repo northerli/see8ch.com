@@ -350,6 +350,12 @@ body#home h1 {
   color: #333333;
   letter-spacing: 0.2em;
 }
+@media screen and (max-width: 600px) {
+  body#home h1 {
+    position: relative;
+    top: -20px;
+  }
+}
 body#home h4 {
   width: 80%;
   max-width: 450px;
@@ -360,6 +366,12 @@ body#home h4 {
   color: #27a9e1;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
+}
+@media screen and (max-width: 600px) {
+  body#home h4 {
+    position: relative;
+    top: -20px;
+  }
 }
 body#home #location {
   display: block;

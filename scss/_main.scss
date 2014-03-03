@@ -238,6 +238,10 @@ body#home {
 		max-width:450px;
 		margin-right:auto;
 		margin-left:auto;
+		@media screen and (max-width: $bp-1) {
+			position:relative;
+			top:-20px;
+		}
 	}
 
 	h1 {

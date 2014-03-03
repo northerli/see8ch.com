@@ -5,7 +5,6 @@ $(document).ready(function(){resizeDiv();});
       vpw = $(window).width();
       vph = $(window).height();
 
-
       // Logo Padding
       $('#home h1').css({'margin-top': vph / 2.8 + 'px'});
       $('#resume-intro').css({'padding-top': vph / 3.15 + 'px'});
