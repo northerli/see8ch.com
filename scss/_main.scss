@@ -1,3 +1,8 @@
+// Breakpoints
+$bp-mobile: 600px;
+$bp-tablet: 800px;
+
+
 
 
 /* Links and Headers
@@ -55,9 +60,7 @@ body {
 	padding-top:100px;
 	z-index:999999;
 
-	@media screen and (max-width: $bp-1) {
-		//display: block;
-	}
+	@media screen and (max-width: $bp-mobile) {display:block;}
 }
 
 
@@ -73,7 +76,7 @@ nav {
 	z-index:9999;
 	@include ease;
 
-	@media screen and (max-width: $bp-1) {background:none;}
+	@media screen and (max-width: $bp-mobile) {background:none;}
 
 	// Default Hover State
 	&:hover {
@@ -111,7 +114,7 @@ nav {
 
 			.burger {
 				fill:white;
-				@media screen and (max-width: $bp-1) {fill:darken($grey, 20%);}
+				@media screen and (max-width: $bp-mobile) {fill:darken($grey, 20%);}
 			}
 		}
 	}
@@ -182,7 +185,7 @@ nav {
 		width:330px;
 		background:$black;
 
-		@media screen and (max-width: $bp-1) {width:272px;}
+		@media screen and (max-width: $bp-mobile) {width:272px;}
 
 		#nav-open {
 			opacity: 0;
@@ -235,10 +238,10 @@ body#home {
 
 	@mixin home-page-width {
 		width:80%;
-		max-width:450px;
+		max-width:430px;
 		margin-right:auto;
 		margin-left:auto;
-		@media screen and (max-width: $bp-1) {
+		@media screen and (max-width: $bp-mobile) {
 			position:relative;
 			top:-20px;
 		}
@@ -285,7 +288,7 @@ body#home {
 			@include lato-3;
 			@include ease;
 
-			@media screen and (max-width: $bp-1) {font-size:0.8em;}
+			@media screen and (max-width: $bp-mobile) {font-size:0.8em;}
 		}
 
 		&:hover {
@@ -308,7 +311,7 @@ body#home {
 		z-index: -9999;
 		@include ease;
 
-		@media screen and (max-width: $bp-1) {bottom:0;}
+		@media screen and (max-width: $bp-tablet) {bottom:0;}
 
 		.mtn-poly {fill:darken($grey, 3%);}
 	}

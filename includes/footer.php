@@ -13,7 +13,7 @@
         <!-- FitText -->
         <script>
           jQuery("#home h1").fitText();
-          jQuery("#home h4").fitText(2.8);
+          jQuery("#home h4").fitText(2.82);
         </script>
 
         <!-- Modernizr -->

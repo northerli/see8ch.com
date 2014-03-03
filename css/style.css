@@ -172,6 +172,11 @@ body {
   padding-top: 100px;
   z-index: 999999;
 }
+@media screen and (max-width: 600px) {
+  #responsive-coming-soon {
+    display: block;
+  }
+}
 
 /* Header/Logo and Tagline
 ======================================================= */
@@ -341,7 +346,7 @@ body#home #back-btn {
 }
 body#home h1 {
   width: 80%;
-  max-width: 450px;
+  max-width: 430px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 8px;
@@ -358,7 +363,7 @@ body#home h1 {
 }
 body#home h4 {
   width: 80%;
-  max-width: 450px;
+  max-width: 430px;
   margin-right: auto;
   margin-left: auto;
   margin-right: auto;
@@ -422,7 +427,7 @@ body#home svg.mtn-icon {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   body#home svg.mtn-icon {
     bottom: 0;
   }
@@ -545,10 +550,58 @@ body#resume section article .school {
 body#resume section article .school {
   text-align: center;
 }
-body#resume section article .specs .links {
-  margin-bottom: 0;
+body#resume section article .specs {
+  text-align: left;
+  margin-top: 30px;
 }
-body#resume section article .specs span {
+body#resume section article .specs h4 {
+  margin-bottom: 10px;
+  font-size: 1.25em;
+  letter-spacing: 0.15em;
+  color: #bbbbbb;
+}
+body#resume section article .specs h5 {
+  display: inline-block;
+  margin-right: 10px;
+  padding-left: 0;
+  margin-bottom: 25px;
+  font-size: 1.15em;
+}
+body#resume section article .specs h5 + a li {
+  border-color: #fd9638;
+  color: #fd9638;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+body#resume section article .specs h5 + a li span {
+  margin-right: 0;
+  margin-left: 3px;
+}
+body#resume section article .specs h5 + a li:hover {
+  color: #27a9e1;
+  border-color: #27a9e1;
+}
+body#resume section article .specs li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 3px 4px 0;
+  border: 1px solid #dedede;
+  padding: 7px 15px;
+  font-size: 1.15em;
+  letter-spacing: 0.1em;
+  color: #888888;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+body#resume section article .specs li .link-box {
+  margin-bottom: 0;
+  border-color: #fd9638;
+  color: #fd9638;
+}
+body#resume section article .specs li span {
   margin-right: 10px;
   text-transform: uppercase;
   font-size: 0.75em;
@@ -572,17 +625,7 @@ body#resume section article .specs.qualifications ul {
   margin-bottom: 70px;
 }
 body#resume section article .specs.qualifications ul li {
-  list-style: none;
-  display: inline-block;
-  margin: 0 3px 4px 0;
-  border: 1px solid #dedede;
-  padding: 12px 15px;
-  font-size: 1.7em;
-  color: #888888;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  font-size: 1.4em;
 }
 body#resume section article .specs.qualifications a {
   color: #27a9e1;

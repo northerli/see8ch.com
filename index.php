@@ -1,7 +1,6 @@
 <?php include('includes/head.php'); ?>
 
 <body id="home">
-	<div id="responsive-coming-soon">Mobile Currently Unavailable</div>
 
 <?php include('includes/nav.php'); ?>
 

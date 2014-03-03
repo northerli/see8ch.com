@@ -1,6 +1,7 @@
 <?php include('includes/head.php'); ?>
 
 <body id="resume">
+	<div id="responsive-coming-soon">Mobile Currently Unavailable</div>
 
 <?php include('includes/nav.php'); ?>
 
@@ -21,10 +22,10 @@
  			<p class="position">Designer // <span>Colorado // 2013</span></p>
 			<div class="description">
 				<p>I was selected as one of the twelve designers that best represented Colorado's talent to join the Making Colorado Creative Team led by Alex Bogusky of <a href="http://www.cpbgroup.com/" target="_blank">CP+B</a> and Dave Schiff of <a href="http://mademovement.com/" target="_blank">Made Movement</a>. The team was individually tasked with creating new identity system solutions for the State of Colorado.</p>
-				<div class="specs work">
- 					<p class="links"><span>The Process</span><a href="http://www.makingcolorado.gov">Making Colorado</a></p>
- 					<p class="links"><span>The Final Identity</span><a href="http://www.brandcolorado.gov">Brand Colorado</a></p>
- 				</div>
+				<ul class="specs work">
+ 					<h5>The Process</h5><a href="http://www.makingcolorado.gov"><li>Making Colorado <span>►</span></li></a><br />
+ 					<h5>The Final Identity</h5><a href="http://www.brandcolorado.gov"><li>Brand Colorado <span>►</span></li></a>
+ 				</ul>
 			</div>
 		</article>
 
@@ -35,9 +36,16 @@
 			<div class="description">
 	 			<p>Provide an all inclusive design service to clients through branding, web design and development, product design and packaging, mobile interface design and product photography.</p>
 			</div>
-			<div class="specs work">
-	 			<p><span>Clients</span>Spire, Cinearc, Nationwide, DirecTV, Yoga-Dates, Bevinco, Lexie Barnes</p>
-	 		</div>
+			<ul class="specs work">
+	 			<h5>Clients</h5>
+					<li>Spire</li>
+					<li>Cinearc</li>
+					<li>Nationwide</li>
+					<li>DirecTV</li>
+					<li>Yoga-Dates</li>
+					<li>Bevinco</li>
+					<li>Lexie Barnes</li>
+				</ul>
 		</article>
 
 		<!-- Begin Entry -->
@@ -47,9 +55,13 @@
 			<div class="description">
 	 			<p>Working with the Government Policy and Public Relations Division to restructure the Unemployment Insurance application process and website architecture to provide a more informative and accessible service to the residents of Colorado.</p>
 			</div>
-			<div class="specs work">
-	 			<p><span>Clients</span>NASWA, Governor's Office, Unemployment Insurance, Oil & Public Safety</p>
-			</div>
+ 			<ul class="specs work">
+					<h5>Clients</h5>
+					<li>NASWA</li>
+					<li>Governor's Office</li>
+					<li>Unemployment Insurance</li>
+					<li>Oil & Public Safety</li>
+				</ul>
 		</article>
 
 		<!-- Begin Entry -->
@@ -59,9 +71,16 @@
 			<div class="description">
 	 			<p>Remotely handle branding, web and motion for international clients in a variety of industries.</p>
 			</div>
-			<div class="specs work">
-	 			<p><span>Clients</span>HOK, Chrysler, Pelican, Crocs, Arena, Moguldum, MSC</p>
-	 		</div>
+			<ul class="specs work">
+				<h5>Clients</h5>
+				<li>HOK</li>
+				<li>Chrysler</li>
+				<li>Pelican</li>
+				<li>Crocs</li>
+				<li>Arena</li>
+				<li>Moguldum</li>
+				<li>MSC</li>
+			</ul>
 		</article>
 
 		<!-- Begin Entry -->
@@ -71,9 +90,14 @@
 			<div class="description">
 	 			<p>Assisted on all aspects of client work including branding, web, packaging, public relations and commercials.</p>
 			</div>
-			<div class="specs work">
-	 			<p><span>Clients</span>Mercy Health, Coca-Cola, St Louis Public Library, VITRO, St Louis Kettle Corn</p>
-	 		</div>
+			<ul class="specs work">
+				<h5>Clients</h5>
+				<li>Mercy Health</li>
+				<li>Coca-Cola</li>
+				<li>St Louis Public Library</li>
+				<li>VITRO</li>
+				<li>St Louis Kettle Corn</li>
+			</ul>
 		</article>
 
 		<!-- Begin Entry -->
@@ -83,9 +107,12 @@
 			<div class="description">
 	 			<p>Oversaw teams of 5+ designers through all phases of the design process for non-profit companies.</p>
 			</div>
-			<div class="specs work">
-	 			<p><span>Clients</span>Missouri Humane Society, Missouri Police Council, The Bastian Theater</p>
-			</div>
+			<ul class="specs work">
+				<h5>Clients</h5>
+				<li>Missouri Humane Society</li>
+				<li>Missouri Police Council</li>
+				<li>The Bastian Theater</li>
+			</ul>
 		</article>
 
 		<!-- Begin Entry -->
@@ -95,9 +122,12 @@
 			<div class="description">
 	 			<p>Coordinated, constructed and photographed a wide range of studio sessions for clients with worldwide presence.</p>
 			</div>
-			<div class="specs work">
-	 			<p><span>Clients</span>Anheuser Busch, Rudy, Select Artificials</p>
-			</div>
+			<ul class="specs work">
+				<h5>Clients</h5>
+				<li>Anheuser Busch</li>
+				<li>Rudy</li>
+				<li>Select Artificials</li>
+			</ul>
 		</article>
 	</section>
 
