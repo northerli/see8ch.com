@@ -480,9 +480,12 @@ body#hire-sent .content-wrapper a:hover {
 
 /* Resume
 ======================================================= */
+body#resume .content-wrapper {
+  width: 60%;
+  max-width: 860px;
+  margin: 0 auto;
+}
 body#resume section {
-  width: 50%;
-  max-width: 700px;
   margin: 0 auto 250px;
 }
 body#resume section h2 {
@@ -596,14 +599,13 @@ body#resume section#resume-intro {
   position: relative;
 }
 body#resume section#resume-intro h1 {
-  width: 60%;
-  max-width: 860px;
+  width: 100%;
   margin-bottom: 15px;
   color: #333333;
   letter-spacing: 0.18em;
   text-align: left;
   display: inline-block;
-  font-size: 2.2em;
+  font-size: 2.75em;
   border-bottom: 1px solid #dedede;
   padding-bottom: 10px;
 }
@@ -616,11 +618,9 @@ body#resume section#resume-intro h1 span {
   font-weight: 400;
 }
 body#resume section#resume-intro p {
-  width: 60%;
-  max-width: 860px;
   margin: 0 auto;
-  font-size: 2.1em;
-  line-height: 1.4em;
+  font-size: 2.3em;
+  line-height: 1.5em;
   color: #333333;
   font-family: 'Open Sans';
   font-weight: 300;
@@ -725,7 +725,7 @@ body#resume section#resume-hire form textarea:focus {
   outline: none;
 }
 body#resume section#resume-hire form textarea {
-  height: 200px;
+  height: 140px;
   resize: none;
 }
 body#resume section#resume-hire form input[type="submit"] {

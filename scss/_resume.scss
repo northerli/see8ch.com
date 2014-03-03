@@ -2,10 +2,13 @@
 ======================================================= */
 body#resume {
 
+  .content-wrapper {
+    width:60%;
+    max-width:860px;
+    margin:0 auto;
+  }
 
   section {
-    width:50%;
-    max-width:700px;
     margin:0 auto 250px;
 
     h2 {
@@ -117,14 +120,13 @@ body#resume {
       position: relative;
 
       h1 {
-        width:60%;
-        max-width:860px;
+        width:100%;
         margin-bottom:15px;
         color:$black;
         letter-spacing: 0.18em;
         text-align: left;
         display: inline-block;
-        font-size: 2.2em;
+        font-size: 2.75em;
         border-bottom:1px solid $grey;
         padding-bottom:10px;
 
@@ -137,15 +139,11 @@ body#resume {
         }
       }
       p {
-        width:60%;
-        max-width:860px;
         margin:0 auto;
-        font-size: 2.1em;
-        line-height: 1.4em;
+        font-size: 2.3em;
+        line-height: 1.5em;
         color:$black;
         @include os-3;
-//				@include lato-1;
-//				text-transform:uppercase;
       }
       .icon {
         position: absolute;
@@ -162,8 +160,6 @@ body#resume {
       article {
         &:last-child {
           margin-bottom:0;
-//					padding-bottom:0;
-//					border:none;
         }
       }
     }
@@ -247,7 +243,7 @@ body#resume {
           }
         }
         textarea {
-          height:200px;
+          height:140px;
           resize: none;
         }
         input[type="submit"] {

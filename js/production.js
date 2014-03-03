@@ -53,8 +53,8 @@ $(document).ready(function(){resizeDiv();});
       $('#home h1').css({'margin-top': vph / 2.8 + 'px'});
       $('#resume-intro').css({'padding-top': vph / 3.15 + 'px'});
       $('#resume-intro').css({'height': vph - (vph / 2.8) + 'px'});
-      $('#resume-hire').css({'height': vph - (vph / 3) + 'px'});
-      $('#resume-hire-btn').css({'margin-top': vph / 3 + 'px'});
+      //$('#resume-hire').css({'height': vph - (vph / 3.5) + 'px'});
+      $('#resume-hire-btn').css({'margin-top': vph / 3.5 + 'px'});
       $('#resume-hire-form').css({'margin-bottom': vph / 4 + 'px'});
       $('#hire-sent h2').css({'margin-top': vph / 2.8 + 'px'});
 }
