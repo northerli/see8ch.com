@@ -290,6 +290,11 @@ nav.active {
   width: 330px;
   background: #333333;
 }
+@media screen and (max-width: 600px) {
+  nav.active {
+    width: 272px;
+  }
+}
 nav.active #nav-open {
   opacity: 0;
   pointer-events: none;
@@ -335,17 +340,21 @@ body#home #back-btn {
   display: none;
 }
 body#home h1 {
-  width: 70%;
+  width: 80%;
   max-width: 450px;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 8px;
   margin-right: auto;
   margin-left: auto;
   color: #333333;
-  letter-spacing: 0.21em;
+  letter-spacing: 0.2em;
 }
 body#home h4 {
-  width: 70%;
+  width: 80%;
   max-width: 450px;
+  margin-right: auto;
+  margin-left: auto;
   margin-right: auto;
   margin-left: auto;
   color: #27a9e1;
@@ -378,6 +387,11 @@ body#home #location p {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
+@media screen and (max-width: 600px) {
+  body#home #location p {
+    font-size: 0.8em;
+  }
+}
 body#home #location:hover img.icon {
   width: 18px;
 }
@@ -395,6 +409,11 @@ body#home svg.mtn-icon {
   z-index: -9999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
+}
+@media screen and (max-width: 600px) {
+  body#home svg.mtn-icon {
+    bottom: 0;
+  }
 }
 body#home svg.mtn-icon .mtn-poly {
   fill: #d6d6d6;

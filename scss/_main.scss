@@ -182,6 +182,8 @@ nav {
 		width:330px;
 		background:$black;
 
+		@media screen and (max-width: $bp-1) {width:272px;}
+
 		#nav-open {
 			opacity: 0;
 			pointer-events:none;
@@ -231,19 +233,24 @@ body#home {
 
 	#back-btn {display:none;}
 
-	h1 {
-		width:70%;
+	@mixin home-page-width {
+		width:80%;
 		max-width:450px;
+		margin-right:auto;
+		margin-left:auto;
+	}
+
+	h1 {
+		@include home-page-width;
 		margin-bottom:8px;
 		margin-right:auto;
 		margin-left: auto;
 		color:$black;
-		letter-spacing: 0.21em;
+		letter-spacing: 0.2em;
 }
 
 	h4 {
-		width:70%;
-		max-width:450px;
+		@include home-page-width;
 		margin-right:auto;
 		margin-left: auto;
 		color:$blue;
@@ -273,6 +280,8 @@ body#home {
 			text-align: center;
 			@include lato-3;
 			@include ease;
+
+			@media screen and (max-width: $bp-1) {font-size:0.8em;}
 		}
 
 		&:hover {
@@ -294,6 +303,8 @@ body#home {
 		margin:0 auto;
 		z-index: -9999;
 		@include ease;
+
+		@media screen and (max-width: $bp-1) {bottom:0;}
 
 		.mtn-poly {fill:darken($grey, 3%);}
 	}
