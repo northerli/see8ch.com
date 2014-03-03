@@ -22,5 +22,5 @@
 	</svg>
 </div>
 <!-- End Content -->
-<p>test 5</p>
+<p>test 6</p>
 <?php include('includes/footer.php'); ?>
