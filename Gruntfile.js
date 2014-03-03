@@ -63,14 +63,6 @@ module.exports = function(grunt) {
         //        }
         //    }
         //},
-        //php: {
-        //    test: {
-        //        options: {
-        //            keepalive: true,
-        //            open: true
-        //        }
-        //    }
-        //}
         watch: {
              //options: {
              //    livereload: true,
@@ -108,12 +100,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-sass');       // Gettin Sassy!
     grunt.loadNpmTasks('grunt-autoprefixer');       // Auto-freaking-prefixer!!!
     grunt.loadNpmTasks('grunt-contrib-connect');        // Localhost Environment
-//    grunt.loadNpmTasks('grunt-php'); // PHP Server
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
     grunt.registerTask('default', ['imagemin']);
     grunt.registerTask('dev', ['watch']);
 //    grunt.registerTask('dev', ['connect', 'watch']);
-//    grunt.registerTask('dev', ['php', 'watch']);
 
 };
