@@ -55,8 +55,8 @@ body {
 	padding-top:100px;
 	z-index:999999;
 
-	@media screen and (max-width: 600px) {
-		display: block;
+	@media screen and (max-width: $bp-1) {
+		//display: block;
 	}
 }
 
@@ -72,6 +72,8 @@ nav {
 	bottom:0;
 	z-index:9999;
 	@include ease;
+
+	@media screen and (max-width: $bp-1) {background:none;}
 
 	// Default Hover State
 	&:hover {
@@ -107,7 +109,10 @@ nav {
 			position: relative;
 			@include ease;
 
-			.burger {fill:white;}
+			.burger {
+				fill:white;
+				@media screen and (max-width: $bp-1) {fill:darken($grey, 20%);}
+			}
 		}
 	}
 	#nav-close {
@@ -227,12 +232,20 @@ body#home {
 	#back-btn {display:none;}
 
 	h1 {
+		width:70%;
+		max-width:450px;
 		margin-bottom:8px;
+		margin-right:auto;
+		margin-left: auto;
 		color:$black;
 		letter-spacing: 0.2em;
 	}
 
 	h4 {
+		width:70%;
+		max-width:450px;
+		margin-right:auto;
+		margin-left: auto;
 		color:$blue;
 		@include lato-4;
 	}

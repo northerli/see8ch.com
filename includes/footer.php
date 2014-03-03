@@ -10,6 +10,12 @@
         <script src="//code.jquery.com/jquery-latest.min.js"></script>
         <script src="js/production.min.js"></script>
 
+        <!-- FitText -->
+        <script>
+          jQuery("#home h1").fitText();
+          jQuery("#home h4").fitText(2.8);
+        </script>
+
         <!-- Modernizr -->
 <!--        <script src="js/modernizr.js"></script> -->
 
