@@ -63,6 +63,14 @@ module.exports = function(grunt) {
         //        }
         //    }
         //},
+        // This is optional!
+        notify_hooks: {
+          options: {
+            enabled: true,
+            max_jshint_notifications: 5, // maximum number of notifications from jshint output
+            title: "Project Name" // defaults to the name in package.json, or will use project directory's name
+          }
+        },
         watch: {
              //options: {
              //    livereload: true,
@@ -100,10 +108,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-sass');       // Gettin Sassy!
     grunt.loadNpmTasks('grunt-autoprefixer');       // Auto-freaking-prefixer!!!
     grunt.loadNpmTasks('grunt-contrib-connect');        // Localhost Environment
+    grunt.loadNpmTasks('grunt-notify');
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
     grunt.registerTask('default', ['imagemin']);
     grunt.registerTask('dev', ['watch']);
 //    grunt.registerTask('dev', ['connect', 'watch']);
-
 };
