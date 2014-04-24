@@ -175,7 +175,7 @@
 			</div>
 			<div class="specs qualifications">
 	 			<h3>Press</h3>
-	 			<p><a href="http://www.thedenveregotist.com/news/local/2013/may/15/making-colorado-creative-team-has-been-chosen" target="_blank">The Egotist</a><a href="http://www.thedieline.com/blog/2009/12/7/student-spotlight-xocolatl.html" target="_blank">The Dieline</a>, <a href="http://www.yankodesign.com/2011/04/15/iphone-case-fight-for-safe-sex/" target="_blank">Yanko Design</a>, <a href="http://blogs.phoenixnewtimes.com/jackalope/2011/04/justincase_because_everyones_i.php" target="_blank">Phoenix Times</a>, <a href="http://www.forevergeek.com/2011/04/the-justincase-protect-your-iphone-and-your-private-parts/" target="_blank">Forever Geek</a></p>
+	 			<p><a href="http://www.thedenveregotist.com/news/local/2013/may/15/making-colorado-creative-team-has-been-chosen" target="_blank">The Egotist</a>, <a href="http://www.thedieline.com/blog/2009/12/7/student-spotlight-xocolatl.html" target="_blank">The Dieline</a>, <a href="http://www.yankodesign.com/2011/04/15/iphone-case-fight-for-safe-sex/" target="_blank">Yanko Design</a>, <a href="http://blogs.phoenixnewtimes.com/jackalope/2011/04/justincase_because_everyones_i.php" target="_blank">Phoenix Times</a>, <a href="http://www.forevergeek.com/2011/04/the-justincase-protect-your-iphone-and-your-private-parts/" target="_blank">Forever Geek</a></p>
 			</div>
 		</article>
 	</section>
