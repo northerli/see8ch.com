@@ -256,7 +256,7 @@ nav a.working li span {
   font-size: 1.2em;
 }
 nav a.working li:hover {
-  background: red;
+  background: #eb212e;
 }
 nav a li {
   opacity: 0;
