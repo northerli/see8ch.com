@@ -68,37 +68,31 @@ img {
   src: url("/fonts/novecento/25DFFC_0_0.eot");
   src: url("/fonts/novecento/25DFFC_0_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_0_0.woff") format("woff"), url("/fonts/novecento/25DFFC_0_0.ttf") format("truetype");
 }
-
 @font-face {
   font-family: 'Novecentowide-Light';
   src: url("/fonts/novecento/25DFFC_1_0.eot");
   src: url("/fonts/novecento/25DFFC_1_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_1_0.woff") format("woff"), url("/fonts/novecento/25DFFC_1_0.ttf") format("truetype");
 }
-
 @font-face {
   font-family: 'Novecentowide-DemiBold';
   src: url("/fonts/novecento/25DFFC_2_0.eot");
   src: url("/fonts/novecento/25DFFC_2_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_2_0.woff") format("woff"), url("/fonts/novecento/25DFFC_2_0.ttf") format("truetype");
 }
-
 @font-face {
   font-family: 'Novecentowide-Book';
   src: url("/fonts/novecento/25DFFC_3_0.eot");
   src: url("/fonts/novecento/25DFFC_3_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_3_0.woff") format("woff"), url("/fonts/novecento/25DFFC_3_0.ttf") format("truetype");
 }
-
 @font-face {
   font-family: 'Novecentowide-Normal';
   src: url("/fonts/novecento/25DFFC_4_0.eot");
   src: url("/fonts/novecento/25DFFC_4_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_4_0.woff") format("woff"), url("/fonts/novecento/25DFFC_4_0.ttf") format("truetype");
 }
-
 @font-face {
   font-family: 'Novecentowide-Medium';
   src: url("/fonts/novecento/25DFFC_5_0.eot");
   src: url("/fonts/novecento/25DFFC_5_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_5_0.woff") format("woff"), url("/fonts/novecento/25DFFC_5_0.ttf") format("truetype");
 }
-
 /* Links and Headers
 ======================================================= */
 a {
@@ -253,6 +247,16 @@ nav #nav-close:hover {
 }
 nav a {
   text-decoration: none;
+}
+nav a.working {
+  cursor: none;
+}
+nav a.working li span {
+  color: white;
+  font-size: 1.2em;
+}
+nav a.working li:hover {
+  background: red;
 }
 nav a li {
   opacity: 0;
