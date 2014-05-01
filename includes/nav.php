@@ -12,7 +12,7 @@
 		</svg>
 	</a>
 	<a id="nav-close">X</a>
-	<a class="working"><li>Work (coming soon)<span>X</span></li></a>
+	<!--<a class="working"><li>Work (coming soon)<span>X</span></li></a>-->
 	<a href="http://codepen.io/see8ch" target="_blank"><li>Codepen<span>►</span></li></a>
 	<a href="https://github.com/see8ch" target="_blank"><li>Github<span>►</span></li></a>
 	<a href="http://twitter.com/see8ch" target="_blank"><li>Twitter<span>►</span></li></a>
