@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<title>Chris Holder // User Friendly Designer & Developer</title>
+		<title><?php echo $title; ?></title>
 		<meta charset="utf-8">
 		<meta name="description" content="User friendly designer and developer in Steamboat Springs, Colorado. I am all about the details and I love working on projects that require more complex problem solving or are in need of heavy information architecture." />
 		<meta name="author" content="Chris Holder // chris@see8ch.com">

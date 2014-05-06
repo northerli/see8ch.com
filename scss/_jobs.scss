@@ -1,0 +1,146 @@
+
+// Jobs Pages
+body#jobs {
+  .content-wrapper {
+    width:60%;
+    //max-width:750px;
+    @media screen and (max-width: 768px) {
+      width:70%;
+    }
+  }
+
+  .school {
+    &.contact {
+      margin-top:-10px;
+      color:$dark-grey;
+      a {
+        color:$dark-grey;
+        &:hover {
+          color:$orange;
+        }
+      }
+    }
+  }
+  section#resume-intro {
+    height:auto !important;
+    margin-bottom: 160px;
+    + section {
+      margin-bottom:60px;
+      h2 {margin-bottom:40px;}
+      article{
+        border:none;
+        .specs li {margin-bottom:8px;}
+      }
+    }
+    img {
+      position: relative;
+      top:0;
+      width:120px;
+      margin-bottom: 100px;
+      @include ease;
+      &:hover {
+        top:-10px;
+      }
+    }
+    .content {
+      margin-top:30px;
+      font-size: 1.8em;
+      line-height: 1.6;
+      color:$dark-grey;
+    }
+    .icon {bottom:-40px;}
+    h4 {
+      text-align: left;
+      color:$blue;
+      margin: 40px 0 18px;
+    }
+  }
+  section {
+    h2 {
+      font-size:2.8em;
+      @media screen and (max-width: 500px) {font-size:2em;}
+    }
+    p {
+      font-size: 1.7em;
+      color:$dark-grey;
+    }
+    article {
+      padding-bottom:50px;
+      margin-bottom:50px;
+      .specs {
+        h5 {margin-right:5px;}
+        a {
+          margin-right:15px;
+          li {
+            border-color:$orange;
+            color:$orange;
+            @include ease;
+
+            span {
+              margin-right:0;
+              margin-left:3px;
+            }
+            &:hover {
+              color:$blue;
+              border-color:$blue;
+            }
+            @media screen and (max-width: 768px) {
+              width:100%;
+              padding:10px 0;
+              margin-bottom:10px;
+              font-size:1.4em;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  section#resume-hire {
+    height: auto !important;
+    a {margin-bottom:20px;}
+  }
+  section#resume-experience {
+    //margin-bottom: 140px;
+    article:last-child {border:none;}
+  }
+  section#resume-education {
+    margin:160px auto 260px;
+    h2 {
+      border-bottom: 1px solid #dedede;
+      text-align: left;
+      font-size: 2.8em;
+      @media screen and (max-width: 500px) {font-size:2em;}
+    }
+    article {
+      h3,
+      .school {text-align: left;}
+    }
+  }
+  section.contact-me {
+    h2 {margin-bottom:5px !important;}
+    article {
+      border:none;
+      .contact-content {
+        a, span {
+          margin-right:0;
+          font-size:1.5em;
+          line-height: 1.5;
+        }
+        p {
+          //margin-top:5px;
+          margin-bottom:35px;
+        }
+      }
+    }
+  }
+  .thanks {
+    span {
+      color:$grey;
+      font-size: 0.5em;
+      line-height: 7.5;
+      letter-spacing: 0.3em;
+    }
+    @media screen and (max-width: 500px) {font-size:2em;}
+  }
+}

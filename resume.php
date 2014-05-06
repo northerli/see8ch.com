@@ -1,7 +1,11 @@
+<?php
+	$title = 'Chris Holder // User Friendly Designer & Developer';
+?>
+
 <?php include('includes/head.php'); ?>
 
 <body id="resume">
-	<div id="responsive-coming-soon">Mobile Currently Unavailable</div>
+
 
 <?php include('includes/nav.php'); ?>
 
@@ -158,13 +162,15 @@
 		<h2>Qualifications</h2>
 		<article>
 			<div class="specs qualifications">
-	 			<h3>Skills</h3>
+	 			<h3>Skills & Tools</h3>
 	 			<ul>
 		 			<li>UI/UX</li>
 		 			<li>HTML/PHP</li>
 		 			<li>CSS/SCSS</li>
 		 			<li>JS</li>
 		 			<li>WordPress</li>
+		 			<li>Git</li>
+		 			<li>Grunt.js</li>
 		 			<li>Art Direction</li>
 		 			<li>IA</li>
 		 			<li>CMS</li>

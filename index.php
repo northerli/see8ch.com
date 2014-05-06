@@ -1,3 +1,7 @@
+<?php
+	$title = 'Chris Holder // User Friendly Designer & Developer';
+?>
+
 <?php include('includes/head.php'); ?>
 
 <body id="home">

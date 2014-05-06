@@ -1,6 +1,7 @@
 /* Resume
 ======================================================= */
-body#resume {
+body#resume,
+body#jobs {
 
   .content-wrapper {
     width:75%;
@@ -26,6 +27,9 @@ body#resume {
         margin: 21px auto 0;
         background: $grey;
         display: block;
+      }
+      @media screen and (max-width: 500px) {
+        font-size:2.2em;
       }
     }
 
@@ -101,6 +105,11 @@ body#resume {
               color:$blue;
               border-color:$blue;
             }
+          }
+          @media screen and (max-width: 500px) {
+            display: block;
+            margin-bottom: 5px;
+            + a li {margin-bottom:20px;}
           }
         }
 
@@ -183,6 +192,13 @@ body#resume {
           color:$blue;
           @include lato-4;
         }
+        @media screen and (max-width: 900px) {
+          font-size: 2em;
+          span {
+            //display: block;
+            //margin-top:10px;
+          }
+        }
       }
       p {
         margin:0 auto;
@@ -218,6 +234,9 @@ body#resume {
         text-align: center;
         margin-bottom: 65px;
         font-size: 3.2em;
+        @media screen and (max-width: 500px) {
+          font-size:2.2em;
+        }
       }
       article {
         border:none;
@@ -314,3 +333,10 @@ body#resume {
     }
   }
 }
+
+
+
+
+
+
+
