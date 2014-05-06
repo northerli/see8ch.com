@@ -21,9 +21,10 @@
 		<img src="images/ckhero@2x.png"/>
 		<h1>Hi Commerce Kitchen!</h1>
 		<p>Subj: Fellow Superhero looking to join your awesome team.</p>
-		<p class="content">From research to strategy to launch, I focus on stimulating user engagement with high quality user-friendly designs and built on a sturdy framework with maximized usability—to create awesome user experiences, for both my clients and their audience. I believe the best way my projects succeed is strong communication with the client, clearly defining objectives and always checking in with the team. Comfortable learning new software, coding languages, platforms, etc. and happily welcome new challenges. I thrive in the kind of environment Commerce Kitchen has created and hope to join your league of like-minded superheroes.</p>
+		<p class="content">From research to strategy to launch, I focus on stimulating user engagement with high quality, user-friendly responsive designs built on sturdy frameworks to create awesome user experiences, for both my clients and their audience. I am very comfortable learning new software, languages, platforms, etc. and happily welcome new challenges.</p>
 		<h4>I want to join your league</h4>
-		<p class="content">Check out some recent work below and view my <a href="/resume.php">Resume</a> for my full work history</p>
+		<p class="content">I thrive in the kind of environment Commerce Kitchen has created and hope to join your league of like-minded superheroes.</p>
+		<p class="content">Check out some recent work below and view my <a href="/resume.php">Resume</a> for my full work history.</p>
 	</section>
 
 	<section id="resume-qualifications">
@@ -165,7 +166,7 @@
 		<h2>Let's meet!</h2>
 		<article>
 			<div class="specs qualifications contact-content">
-	 			<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+	 			<p>I am moving back to Denver in mid-May and would love to stop by to meet the team and show some of my work in person!</p>
 	 			<a href="mailto:chris@see8ch.com">chris@see8ch.com</a> <span>//</span> <a href="tel:3147803252">314.780.3252</a> <span>//</span> <a href="http://twitter.com/see8ch" target="_blank">@see8ch</a>
 			</div>
 		</article>

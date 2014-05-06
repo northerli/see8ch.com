@@ -943,7 +943,7 @@ body#jobs section#resume-intro .icon {
 body#jobs section#resume-intro h4 {
   text-align: left;
   color: #27a9e1;
-  margin: 40px 0 18px;
+  margin: 50px 0 -5px;
 }
 body#jobs section h2 {
   font-size: 2.8em;
@@ -981,7 +981,7 @@ body#jobs section article .specs a li:hover {
   color: #27a9e1;
   border-color: #27a9e1;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   body#jobs section article .specs a li {
     width: 100%;
     padding: 10px 0;

@@ -52,7 +52,7 @@ body#jobs {
     h4 {
       text-align: left;
       color:$blue;
-      margin: 40px 0 18px;
+      margin: 50px 0 -5px;
     }
   }
   section {
@@ -84,7 +84,7 @@ body#jobs {
               color:$blue;
               border-color:$blue;
             }
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 767px) {
               width:100%;
               padding:10px 0;
               margin-bottom:10px;
