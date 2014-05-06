@@ -72,6 +72,7 @@ body#jobs {
         a {
           margin-right:15px;
           li {
+            font-size:1.2em;
             border-color:$orange;
             color:$orange;
             @include ease;

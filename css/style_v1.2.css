@@ -1009,6 +1009,7 @@ body#jobs section article .specs a {
   margin-right: 15px;
 }
 body#jobs section article .specs a li {
+  font-size: 1.2em;
   border-color: #fd9638;
   color: #fd9638;
   -webkit-transition: all 333ms ease-in-out;

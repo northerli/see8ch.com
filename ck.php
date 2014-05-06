@@ -20,8 +20,8 @@
 	<section id="resume-intro">
 		<img src="images/ckhero@2x.png"/>
 		<h1>Hi Commerce Kitchen!</h1>
-		<p>Subj: Fellow Superhero looking to join your awesome team.</p>
-		<p class="content">From research to strategy to launch, I focus on stimulating user engagement with high quality, user-friendly responsive designs built on sturdy frameworks to create awesome user experiences, for both my clients and their audience. I am very comfortable learning new software, languages, platforms, etc. and happily welcome new challenges.</p>
+		<p>Fellow superhero looking to join an awesome team.</p>
+		<p class="content">I’m a designer with strong front-end coding abilities and a creative mindset. From research to strategy to launch, I focus on stimulating user engagement with high quality, user-friendly responsive designs built on sturdy frameworks that create rewarding experiences, for both my clients and their audience. I am very comfortable learning new software, languages, platforms, etc. and happily welcome new challenges.</p>
 		<h4>I want to join your league</h4>
 		<p class="content">I thrive in the kind of environment Commerce Kitchen has created and hope to join your league of like-minded superheroes.</p>
 		<p class="content">Check out some recent work below and view my <a href="/resume.php">Resume</a> for my full work history.</p>
@@ -43,8 +43,8 @@
 		 			<li>IA</li>
 		 			<li>CMS</li>
 		 			<li>Strategy</li>
-		 			<li>Aperture</li>
-		 			<li>Final Cut</li>
+		 			<li>Creative Suite</li>
+		 			<li>Photography</li>
 	 			</ul>
 			</div>
 		</article>
@@ -78,9 +78,9 @@
 			<h3>Google</h3>
  			<p class="position">Design // <span>Cinearc - Denver, CO</span></p>
 			<div class="description">
-				<p>Presentation slides for the keynote speakers, demos and intermission periods for the launch of Google Clockwork (renamed), the OS for wearables.</p>
+				<p>Presentation slides for the keynote speakers, demos and intermission periods for the launch of Google Clockwork (renamed to Android Wear), the OS for wearables.</p>
 				<ul class="specs work">
- 					<a target="_blank" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/google/Google%20Presentation-Storyboards%20v1.pdf"><li>Storyboard<span>►</span></li></a>
+ 					<a target="_blank" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/google/Google%20Presentation-Storyboards%20v1.pdf"><li>Storyboard <span>►</span></li></a>
  				</ul>
 			</div>
 		</article>
@@ -154,10 +154,10 @@
 			<p class="school contact"><a href="http://cinearc.com">cinearc.com</a> // <a href="mailto:charles@cinearc.com">charles@cinearc.com</a> // <a href="tel:9702366305">970-236-6305</a></p>
 		</article>
 
-		<article>
+		<!--<article>
 			<h3 class="degree">Justice League</h3>
 			<p class="school">Crime Fighting Collective // DC Comics</p>
-		</article>
+		</article>-->
 
 	</section>
 
@@ -166,7 +166,7 @@
 		<h2>Let's meet!</h2>
 		<article>
 			<div class="specs qualifications contact-content">
-	 			<p>I am moving back to Denver in mid-May and would love to stop by to meet the team and show some of my work in person!</p>
+	 			<p>I am moving back to Denver from the mountains in mid-May and would love to stop by to meet the team in person! Contact me in any of the following ways:</p>
 	 			<a href="mailto:chris@see8ch.com">chris@see8ch.com</a> <span>//</span> <a href="tel:3147803252">314.780.3252</a> <span>//</span> <a href="http://twitter.com/see8ch" target="_blank">@see8ch</a>
 			</div>
 		</article>
