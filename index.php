@@ -15,7 +15,7 @@
 
 	<a id="location" href="http://tinyurl.com/lnchs7w" target="_blank">
 		<img class="icon" src="images/location-icon.svg"/>
-		<p>Steamboat Springs, CO</p>
+		<p>Denver, CO</p>
 	</a>
 
 <!--	<div id="bkgd-map"></div>	-->
