@@ -28,6 +28,7 @@ p {
 }
 
 
+
 /* Main Body Styles
 ======================================================= */
 body {
@@ -365,6 +366,27 @@ footer {
 
 
 
+/* Clearfix
+======================================================= */
+.cf {
+ *zoom: 1;
+	&:before,
+	&:after {
+		content: " "; /* 1 */
+		display: table; /* 2 */
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+.disable-hover {pointer-events:none;}
+
+
+// Safari Only Text Fix
+//html.safari {-webkit-font-smoothing: antialiased;}
+//html {-webkit-font-smoothing: antialiased;}
 
 
 /* Selection Colors

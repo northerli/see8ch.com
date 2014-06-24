@@ -2,12 +2,28 @@
 /* Colors
 ================================================================================================= */
 $blue:#27A9E1;
+$dark-blue:darken($blue, 15%);
+
+$navy:#34495e;
+$dark-navy:darken($navy, 15%);
+
+$purple:#9b59b6;
+$dark-purple:darken($purple, 15%);
+
 $red:#EB212E;
+$dark-red:darken($red, 15%);
+
 $orange:#FD9638;
+$dark-orange:darken($orange, 15%);
+
+$green:#2ECC71;
+$dark-green:darken($green, 15%);
+
 $light-grey:#f3f3f3;
 $grey:#dedede;
 $dark-grey:#888;
 $black:#333;
+
 
 
 
@@ -28,5 +44,7 @@ $highlight-bkgd-color:$orange;
 
 
 // Breakpoints
-$bp-mobile: 600px;
+$bp-large: 1800px;
+$bp-medium: 1100px;
 $bp-tablet: 800px;
+$bp-mobile: 600px;

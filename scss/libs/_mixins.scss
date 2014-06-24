@@ -39,3 +39,11 @@
 	-ms-transform: rotate($deg);
 	-o-transform: rotate($deg);
 }
+
+@mixin responsive($bp) {
+	@media screen and (max-width:$bp) {@content;}
+}
+
+@mixin responsive-big($bp) {
+	@media screen and (min-width:$bp) {@content;}
+}

@@ -98,9 +98,6 @@ img {
 a {
   color: blue;
   -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 a:focus, a:hover, a:active {
@@ -186,9 +183,6 @@ nav {
   bottom: 0;
   z-index: 9999;
   -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 @media screen and (max-width: 600px) {
@@ -214,9 +208,6 @@ nav #nav-close {
   position: absolute;
   z-index: 9999;
   -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 nav #nav-open {
@@ -230,9 +221,6 @@ nav #nav-open svg {
   height: 16px;
   position: relative;
   -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 nav #nav-open svg .burger {
@@ -281,9 +269,6 @@ nav a li {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 nav a li span {
@@ -292,9 +277,6 @@ nav a li span {
   opacity: 0;
   color: #78c9ec;
   -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 nav a li#copyright {
@@ -418,9 +400,6 @@ body#home #location img.icon {
   margin-bottom: 10px;
   width: 15px;
   -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 body#home #location p {
@@ -432,9 +411,6 @@ body#home #location p {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 @media screen and (max-width: 600px) {
@@ -458,9 +434,6 @@ body#home svg.mtn-icon {
   margin: 0 auto;
   z-index: -9999;
   -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 @media screen and (max-width: 800px) {
@@ -503,8 +476,31 @@ body#hire-sent .content-wrapper a:hover {
 
 /* Footer
 ======================================================= */
+/* Clearfix
+======================================================= */
+.cf, body#work #sort, body#work section, body#work article {
+  *zoom: 1;
+}
+.cf:before, body#work #sort:before, body#work section:before, body#work article:before, .cf:after, body#work #sort:after, body#work section:after, body#work article:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.cf:after, body#work #sort:after, body#work section:after, body#work article:after {
+  clear: both;
+}
+
+.disable-hover {
+  pointer-events: none;
+}
+
 /* Selection Colors
 ======================================================= */
+::-moz-selection {
+  background: #fd9638;
+  color: white;
+}
 ::selection {
   background: #fd9638;
   color: white;
@@ -625,9 +621,6 @@ body#jobs section article .specs h5 + a li {
   border-color: #fd9638;
   color: #fd9638;
   -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 body#resume section article .specs h5 + a li span,
@@ -665,9 +658,6 @@ body#jobs section article .specs li {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 body#resume section article .specs li .link-box,
@@ -848,9 +838,6 @@ body#jobs section#resume-hire form {
   opacity: 0;
   height: 0;
   -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 body#resume section#resume-hire form.active,
@@ -878,9 +865,6 @@ body#jobs section#resume-hire form textarea {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 body#resume section#resume-hire form input[type="text"]:active, body#resume section#resume-hire form input[type="text"]:focus,
@@ -913,9 +897,6 @@ body#jobs section#resume-hire form input[type="submit"] {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 body#resume section#resume-hire form input[type="submit"]:hover,
@@ -964,9 +945,6 @@ body#jobs section#resume-intro img {
   width: 120px;
   margin-bottom: 100px;
   -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 body#jobs section#resume-intro img:hover {
@@ -1013,9 +991,6 @@ body#jobs section article .specs a li {
   border-color: #fd9638;
   color: #fd9638;
   -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 body#jobs section article .specs a li span {
@@ -1085,4 +1060,304 @@ body#jobs .thanks span {
   body#jobs .thanks {
     font-size: 2em;
   }
+}
+
+@media screen and (min-width: 1800px) {
+  body#work {
+    font-size: 75%;
+  }
+}
+body#work #back-btn,
+body#work nav {
+  display: none;
+}
+body#work #sort {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  -webkit-box-shadow: 0 0px 15px 0 #333333;
+  box-shadow: 0 0px 15px 0 #333333;
+  z-index: 9999;
+}
+body#work #sort li {
+  float: left;
+  width: 21.875%;
+  padding: 1.75em 0;
+  color: white;
+  font-size: 1.3em;
+  text-indent: -1em;
+  text-transform: uppercase;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+@media screen and (max-width: 800px) {
+  body#work #sort li {
+    font-size: 1em;
+    width: 50%;
+  }
+  body#work #sort li:first-child {
+    display: none;
+  }
+}
+body#work #sort li:first-child {
+  background: #333333;
+  width: 12.5%;
+  cursor: default;
+}
+body#work #sort li:first-child a {
+  color: white;
+  text-decoration: none;
+}
+body#work #sort li:first-child span {
+  opacity: 0.25;
+}
+body#work #sort li:nth-child(2) {
+  background: #9b59b6;
+}
+body#work #sort li:nth-child(2) span {
+  color: #713b87;
+  top: -7px;
+}
+body#work #sort li:nth-child(2):hover {
+  background: #804399;
+}
+body#work #sort li:nth-child(2):hover span {
+  color: #452452;
+}
+body#work #sort li:nth-child(3) {
+  background: #27a9e1;
+}
+body#work #sort li:nth-child(3) span {
+  color: #177aa5;
+}
+body#work #sort li:nth-child(3):hover {
+  background: #1a8bbb;
+}
+body#work #sort li:nth-child(3):hover span {
+  color: #0e4861;
+}
+body#work #sort li:nth-child(4) {
+  background: #fd9638;
+}
+body#work #sort li:nth-child(4) span {
+  color: #e66f02;
+}
+body#work #sort li:nth-child(4):hover {
+  background: #fc7b06;
+}
+body#work #sort li:nth-child(4):hover span {
+  color: #9a4b02;
+}
+body#work #sort li:last-child {
+  background: #2ecc71;
+}
+body#work #sort li:last-child span {
+  color: #208e4e;
+}
+body#work #sort li:last-child:hover {
+  background: #25a25a;
+}
+body#work #sort li:last-child:hover span {
+  color: #124f2c;
+}
+body#work #sort li span {
+  height: 0;
+  font-size: 2em;
+  position: relative;
+  top: -6px;
+  margin-right: 0.3em;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+body#work #sort li.active span {
+  color: white;
+}
+body#work #sort li.active:hover span {
+  color: white;
+}
+body#work article {
+  position: relative;
+  float: left;
+  width: 25%;
+  overflow: hidden;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+body#work article.design {
+  background: rgba(39, 169, 225, 0);
+}
+body#work article.development {
+  background: rgba(253, 150, 56, 0);
+}
+body#work article.development.design {
+  background: rgba(46, 204, 113, 0);
+}
+@media screen and (min-width: 1800px) {
+  body#work article {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  body#work article {
+    width: 33.33333%;
+  }
+}
+@media screen and (max-width: 800px) {
+  body#work article {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  body#work article {
+    width: 100%;
+  }
+}
+body#work article:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 40px 40px 0;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+body#work article.design:after {
+  border-color: transparent #27a9e1 transparent transparent;
+}
+body#work article.development:after {
+  border-color: transparent #fd9638 transparent transparent;
+}
+body#work article.development.design:after {
+  border-color: transparent #2ecc71 transparent transparent;
+}
+body#work article .img-wrap {
+  width: 100%;
+  overflow: hidden;
+  opacity: 0.6;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+body#work article .work-img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+body#work article .work-desc {
+  position: absolute;
+  top: 34%;
+  -webkit-transform: translateY(10%);
+  -ms-transform: translateY(10%);
+  transform: translateY(10%);
+  left: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+body#work article .work-desc h3, body#work article .work-desc .position {
+  text-align: center;
+  color: white;
+}
+body#work article .work-desc h3 {
+  margin-bottom: 0.5em;
+  font-size: 2em;
+  letter-spacing: 0.13em;
+}
+body#work article .work-desc .position {
+  margin-bottom: 1.5em;
+}
+body#work article .work-desc .work-link {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  -webkit-box-shadow: 0 0 0 1px white;
+  box-shadow: 0 0 0 1px white;
+  padding: 1.1em 2em 0.6em;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transform: translateZ(0px);
+  -ms-transform: translateZ(0px);
+  transform: translateZ(0px);
+}
+body#work article .work-desc .work-link span {
+  position: relative;
+  top: -3px;
+}
+body#work article .work-desc .work-link span.genericon-cloud-download {
+  top: -4px;
+}
+body#work article .work-desc .work-link:nth-child(2n) {
+  margin-left: 1em;
+}
+body#work article .work-desc .work-link.pending {
+  text-decoration: line-through;
+}
+body#work article .work-desc .work-link:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+body#work article.design .work-desc .work-link:hover {
+  -webkit-box-shadow: 0 0 0 1px #115978;
+  box-shadow: 0 0 0 1px #115978;
+  color: #115978;
+}
+body#work article.development .work-desc .work-link:hover {
+  -webkit-box-shadow: 0 0 0 1px #b45702;
+  box-shadow: 0 0 0 1px #b45702;
+  color: #b45702;
+}
+body#work article.development.design .work-desc .work-link:hover {
+  -webkit-box-shadow: 0 0 0 1px #176437;
+  box-shadow: 0 0 0 1px #176437;
+  color: #176437;
+}
+body#work article:hover {
+  background: #27a9e1;
+  background: #27a9e1;
+}
+body#work article:hover:after {
+  opacity: 0;
+}
+body#work article:hover.development {
+  background: #fd9638;
+  background: #fd9638;
+}
+body#work article:hover.development.design {
+  background: #2ecc71;
+  background: #2ecc71;
+}
+body#work article:hover .img-wrap {
+  opacity: 0.075;
+}
+body#work article:hover .work-desc {
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+}
+@media screen and (max-width: 800px) {
+  body#work article:after {
+    opacity: 0;
+  }
+  body#work article.design {
+    background: #27a9e1;
+  }
+  body#work article.development {
+    background: #fd9638;
+  }
+  body#work article.development.design {
+    background: #2ecc71;
+  }
+  body#work article .work-img {
+    opacity: 0.2;
+  }
+  body#work article .work-desc {
+    opacity: 1;
+  }
+}
+body#work article.hidden {
+  display: none;
 }
