@@ -1296,6 +1296,12 @@ body#work article .work-desc .work-link:nth-child(2n) {
 body#work article .work-desc .work-link.pending {
   text-decoration: line-through;
 }
+body#work article .work-desc .work-link.pending span {
+  text-decoration: none;
+}
+body#work article .work-desc .work-link.pending span:before {
+  content: '\f445';
+}
 body#work article .work-desc .work-link:hover {
   background: rgba(255, 255, 255, 0.35);
 }

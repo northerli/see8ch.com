@@ -46,6 +46,18 @@
    </div>
   </article>
 
+  <article class="design featured">
+   <div class="img-wrap">
+    <img class="work-img" src="images/work/makingco-feat.png"/>
+   </div>
+   <div class="work-desc">
+    <h3>Making Colorado</h3>
+    <p class="position">Branding // <span>CP+B & Made Movement</span></p>
+    <a class="work-link" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/brandco/Round%201%20-%20ChrisHolder.pdf" target="_blank">concept 1 <span class="genericon genericon-cloud-download"></span></a>
+    <a class="work-link" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/brandco/Round%202%20-%20ChrisHolder.pdf" target="_blank">concept 2 <span class="genericon genericon-cloud-download"></span></a>
+   </div>
+  </article>
+
   <article class="design">
    <div class="img-wrap">
     <img class="work-img" src="images/work/google-feat.png"/>
@@ -57,15 +69,14 @@
    </div>
   </article>
 
-  <article class="design featured">
+  <article class="design development featured">
    <div class="img-wrap">
-    <img class="work-img" src="images/work/makingco-feat.png"/>
+    <img class="work-img" src="images/work/cdletoolkit-feat.png"/>
    </div>
    <div class="work-desc">
-    <h3>Making Colorado</h3>
-    <p class="position">Branding // <span>CP+B & Made Movement</span></p>
-    <a class="work-link" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/brandco/Round%201%20-%20ChrisHolder.pdf" target="_blank">concept 1 <span class="genericon genericon-cloud-download"></span></a>
-    <a class="work-link" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/brandco/Round%202%20-%20ChrisHolder.pdf" target="_blank">concept 2 <span class="genericon genericon-cloud-download"></span></a>
+    <h3>Employer Toolkit</h3>
+    <p class="position">Design & Development // <span>CDLE</span></p>
+    <a class="work-link" href="http://dev.see8ch.com/cdle-employer-toolkit/" target="_blank">website <span class="genericon genericon-external"></span></a>
    </div>
   </article>
 
@@ -79,7 +90,7 @@
     <a class="work-link" href="http://clarkson-creative.com" target="_blank">website <span class="genericon genericon-external"></span></a>
    </div>
   </article>
-
+  
   <article class="design">
    <div class="img-wrap">
     <img class="work-img" src="images/work/mm-feat.png"/>
@@ -89,17 +100,6 @@
     <p class="position">Website Design // <span>BLKDG Digital</span></p>
     <a class="work-link" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/mountain_mag/MM-Mockup%20%28Default%29.jpg" target="_blank">mockup <span class="genericon genericon-cloud-download"></span></a>
     <a class="work-link" href="http://www.mountainonline.com/stories/taos-amplified/" target="_blank">website <span class="genericon genericon-external"></span></a>
-   </div>
-  </article>
-
-  <article class="development">
-   <div class="img-wrap">
-    <img class="work-img" src="images/work/outlook-feat.png"/>
-   </div>
-   <div class="work-desc">
-    <h3>The Outlook</h3>
-    <p class="position">Website Development // <span>PokaYoke</span></p>
-    <a class="work-link" href="http://pres-outlook.org/" target="_blank">website <span class="genericon genericon-external"></span></a>
    </div>
   </article>
 
@@ -114,6 +114,28 @@
    </div>
   </article>
 
+  <article class="development">
+   <div class="img-wrap">
+    <img class="work-img" src="images/work/outlook-feat.png"/>
+   </div>
+   <div class="work-desc">
+    <h3>The Outlook</h3>
+    <p class="position">Website Development // <span>PokaYoke</span></p>
+    <a class="work-link" href="http://pres-outlook.org/" target="_blank">website <span class="genericon genericon-external"></span></a>
+   </div>
+  </article>
+
+  <article class="development">
+   <div class="img-wrap">
+    <img class="work-img" src="images/work/isnm-feat.png"/>
+   </div>
+   <div class="work-desc">
+    <h3>Isaacson School</h3>
+    <p class="position">Development // <span>BLKDG</span></p>
+    <a class="work-link pending" href="" target="_blank">website <span class="genericon genericon-external"></span></a>
+   </div>
+  </article>
+
   <article class="design development">
    <div class="img-wrap">
     <img class="work-img" src="images/work/tutorgrape-feat.png"/>
@@ -122,17 +144,6 @@
     <h3>Tutorgrape</h3>
     <p class="position">Design & Development // <span>Hack4Colorado</span></p>
     <a class="work-link" href="http://dev.see8ch.com/tutorgrape/">website <span class="genericon genericon-external"></span></a>
-   </div>
-  </article>
-
-  <article class="design development">
-   <div class="img-wrap">
-    <img class="work-img" src="images/work/lifestylerepublic-feat.png"/>
-   </div>
-   <div class="work-desc">
-    <h3>Lifestyle Republic</h3>
-    <p class="position">Design & Development</p>
-    <a class="work-link" href="http://lifestylerepublic.com" target="_blank">website <span class="genericon genericon-external"></span></a>
    </div>
   </article>
 
@@ -147,14 +158,14 @@
    </div>
   </article>
 
-  <article class="design development featured">
+  <article class="design development">
    <div class="img-wrap">
-    <img class="work-img" src="images/work/cdletoolkit-feat.png"/>
+    <img class="work-img" src="images/work/lifestylerepublic-feat.png"/>
    </div>
    <div class="work-desc">
-    <h3>Employer Toolkit</h3>
-    <p class="position">Design & Development // <span>CDLE</span></p>
-    <a class="work-link" href="http://dev.see8ch.com/cdle-employer-toolkit/" target="_blank">website <span class="genericon genericon-external"></span></a>
+    <h3>Lifestyle Republic</h3>
+    <p class="position">Design & Development</p>
+    <a class="work-link" href="http://lifestylerepublic.com" target="_blank">website <span class="genericon genericon-external"></span></a>
    </div>
   </article>
 

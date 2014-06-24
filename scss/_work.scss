@@ -34,7 +34,7 @@ body#work {
    @include responsive($bp-tablet) {
     font-size:1em;
     width:50%;
-    &:first-child {display:none;}   
+    &:first-child {display:none;}
    }
 
    &:first-child {
@@ -205,7 +205,13 @@ body#work {
      &.genericon-cloud-download {top:-4px;}
     }
     &:nth-child(2n) {margin-left:1em;}
-    &.pending {text-decoration:line-through;}
+    &.pending {
+     text-decoration:line-through;
+     span {
+      text-decoration:none;
+      &:before {content: '\f445';}
+     }
+    }
     &:hover {background:rgba(255,255,255,0.35);}
    }
   }
