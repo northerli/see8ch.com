@@ -1245,6 +1245,9 @@ body#work article .img-wrap {
 body#work article .work-img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
 }
 body#work article .work-desc {
   position: absolute;
