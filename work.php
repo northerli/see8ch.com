@@ -80,6 +80,17 @@
    </div>
   </article>
 
+  <article class="design development featured">
+   <div class="img-wrap">
+    <img class="work-img" src="images/work/scraply-feat.png"/>
+   </div>
+   <div class="work-desc">
+    <h3>Scraply</h3>
+    <p class="position">Wordpress Theme</p>
+    <a class="work-link" href="https://github.com/see8ch/scraply" target="_blank">github <span class="genericon genericon-github"></span></a>
+   </div>
+  </article>
+
   <article class="development">
    <div class="img-wrap">
     <img class="work-img" src="images/work/clarkson-feat.png"/>
@@ -90,7 +101,7 @@
     <a class="work-link" href="http://clarkson-creative.com" target="_blank">website <span class="genericon genericon-external"></span></a>
    </div>
   </article>
-  
+
   <article class="design">
    <div class="img-wrap">
     <img class="work-img" src="images/work/mm-feat.png"/>

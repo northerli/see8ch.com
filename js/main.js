@@ -7,15 +7,16 @@ $(document).ready(function(){resizeDiv();});
 
       // Logo Padding
       $('#home h1').css({'margin-top': vph / 2.8 + 'px'});
-      $('#resume-intro').css({'padding-top': vph / 3.15 + 'px'});
-      $('#jobs #resume-intro').css({'padding-top': vph / 6 + 'px'});
-      $('#resume-intro').css({'height': vph - (vph / 2.8) + 'px'});
+      $('#resume #resume-intro').css({'padding-top': vph / 3.15 + 'px'});
+      $('#resume #resume-intro').css({'padding-bottom': vph / 3.15 + 'px'});
+      //$('#jobs #resume-intro').css({'padding-top': vph / 6 + 'px'});
+      //$('#resume #resume-intro').css({'height': vph - (vph / 2.8) + 'px'});
       $('#resume-hire').css({'height': vph - (vph / 3.5) + 'px'});
       $('#resume-hire-btn').css({'margin-top': vph / 3.5 + 'px'});
       $('#resume-hire-form').css({'margin-bottom': vph / 4 + 'px'});
       $('#hire-sent h2').css({'margin-top': vph / 2.8 + 'px'});
-      $('.thanks').css({'margin-bottom': vph / 2 - 100 + 'px'});
-      $('.thanks').css({'margin-top': vph / 2 + 'px'});
+      //$('.thanks').css({'margin-bottom': vph / 2 - 100 + 'px'});
+      $('#closing').css({'padding-bottom': vph / 3.6 + 'px'});
 
 
       // Work Images
@@ -28,6 +29,8 @@ $(document).ready(function(){resizeDiv();});
       sortH = $('#sort').height();
       $('#work .content-wrapper').css({'margin-top': sortH + 'px'});
 }
+
+
 
 
 // Toggle Navigation
@@ -49,6 +52,9 @@ $(document).ready(function(){
     //window.scrollTo(0,document.body.scrollHeight);
   });
 });
+
+
+
 
 
 // Work Sort
@@ -76,10 +82,8 @@ $("#sort .both").click(function(){
   $("article.design.development").removeClass("hidden");
 });
 
-// Work Toggle
-//$("#work article").click(function(){
-//  $(this).toggleClass("expanded");
-//});
+
+
 
 
 
@@ -96,9 +100,47 @@ window.addEventListener('scroll', function() {
 }, false);
 
 
+
+
+
 // Safari Only
 (function($){
   if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Mac') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
-    $('html').addClass('safari'); 
+    $('html').addClass('safari');
    }
 })(jQuery);
+
+
+
+
+
+// Jobs Scroll
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    //var headerH = $("header").offset.top();
+    //var introH = $("#intro").offset.top();
+    //var expH = $("#experience").offset.top();
+    //var skillH = $('#skills').scrollTop();
+
+    //var skillH = headerH + introH + expH;
+
+    if (scroll >= 300) {
+        $('#jobs.a8c #intro').addClass("active");
+    } else {
+        $('#jobs.a8c #intro').removeClass("active");
+    }
+
+    //if (scroll >= skillH) {
+    //    $('#skills li').addClass("active");
+    //} else {
+    //    $('#skills li').removeClass("active");
+    //}
+});
+
+
+// Jobs Preview Toggle
+$("#jobs .preview-toggle").click(function(){
+  $(this).parent().parent().next('.preview').toggleClass("active");
+  $(this).toggleClass('active');
+});

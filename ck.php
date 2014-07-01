@@ -17,9 +17,9 @@
 
 <!-- Begin Content -->
 <div class="content-wrapper">
-	<section id="resume-intro">
+	<section id="intro">
 		<img src="images/ckhero@2x.png"/>
-		<h1>Hi Commerce Kitchen!</h1>
+		<h2>Hi Commerce Kitchen!</h2>
 		<p>Fellow superhero looking to join an awesome team.</p>
 		<p class="content">I’m a designer with strong front-end coding abilities and a creative mindset. From research to strategy to launch, I focus on stimulating user engagement with high quality, user-friendly responsive designs built on sturdy frameworks that create rewarding experiences, for both my clients and their audience. I am very comfortable learning new software, languages, platforms, etc. and happily welcome new challenges.</p>
 		<h4>I want to join your league</h4>
@@ -27,7 +27,7 @@
 		<p class="content">Check out some recent work below and view my <a href="/resume.php">Resume</a> for my full work history.</p>
 	</section>
 
-	<section id="resume-qualifications">
+	<section id="skills">
 		<h2>Superpowers</h2>
 		<article>
 			<div class="specs qualifications">
@@ -50,7 +50,7 @@
 		</article>
 	</section>
 
-	<section id="resume-experience">
+	<section id="experience">
 		<h2>Recent Missions</h2>
 		<article>
 			<h3>Mike Horn</h3>
@@ -58,7 +58,7 @@
 			<div class="description">
 				<p>As an avid explorer, Mike Horn needed a place for others to track his current and past expeditions, learn about the causes he supports and find out how to get involved in supporting his expeditions.</p>
 				<ul class="specs work">
- 					<a target="_blank" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/mike_horn/Wireframes_v1-Notes.pdf"><li>Wireframes<span>►</span></li></a> <a target="_blank" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/mike_horn/Mockups_v1-Notes.pdf"><li>Mockups <span>►</span></li></a> <a target="_blank" href="http://mikehorn.com"><li>Website <span>►</span></li></a>
+ 					<a target="_blank" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/mike_horn/Wireframes_v1-Notes.pdf"><li>Wireframes<span class="genericon genericon-dropbox"></span></li></a> <a target="_blank" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/mike_horn/Mockups_v1-Notes.pdf"><li>Mockups<span class="genericon genericon-dropbox"></span></li></a> <a target="_blank" href="http://mikehorn.com"><li>Website<span class="genericon genericon-external"></span></li></a>
  				</ul>
 			</div>
 		</article>
@@ -69,7 +69,7 @@
 			<div class="description">
 				<p>A quick weekend project that aimed to simplify the way people find market fresh food and to help make healthy living an easier option.</p>
 				<ul class="specs work">
- 					<a target="_blank" href="http://www.whatsinseason.co"><li>Website <span>►</span></li></a>
+ 					<a target="_blank" href="http://www.whatsinseason.co"><li>Website<span class="genericon genericon-external"></span></li></a>
  				</ul>
 			</div>
 		</article>
@@ -80,7 +80,7 @@
 			<div class="description">
 				<p>Presentation slides for the keynote speakers, demos and intermission periods for the launch of Google Clockwork (renamed to Android Wear), the OS for wearables.</p>
 				<ul class="specs work">
- 					<a target="_blank" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/google/Google%20Presentation-Storyboards%20v1.pdf"><li>Storyboard <span>►</span></li></a>
+ 					<a target="_blank" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/google/Google%20Presentation-Storyboards%20v1.pdf"><li>Storyboard<span class="genericon genericon-dropbox"></span></li></a>
  				</ul>
 			</div>
 		</article>
@@ -91,7 +91,7 @@
 			<div class="description">
 				<!--<p></p>-->
 				<ul class="specs work">
- 					<a target="_blank" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/brandco/Round%201%20-%20ChrisHolder.pdf"><li>Round 1 <span>►</span></li></a> <a target="_blank" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/brandco/Round%202%20-%20ChrisHolder.pdf"><li>Round 2 <span>►</span></li></a> <a target="_blank" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/brandco/Round%203%20-%20Chris%20Holder.pdf"><li>Round 3 <span>►</span></li></a>
+ 					<a target="_blank" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/brandco/Round%201%20-%20ChrisHolder.pdf"><li>Round 1<span class="genericon genericon-dropbox"></span></li></a> <a target="_blank" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/brandco/Round%202%20-%20ChrisHolder.pdf"><li>Round 2<span class="genericon genericon-dropbox"></span></li></a> <a target="_blank" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/brandco/Round%203%20-%20Chris%20Holder.pdf"><li>Round 3<span class="genericon genericon-dropbox"></span></li></a>
  				</ul>
 			</div>
 		</article>
@@ -102,7 +102,7 @@
 			<div class="description">
 				<p>Addition of a customizable template for long featured articles to the client's current site. </p>
 				<ul class="specs work">
- 					<a target="_blank" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/mountain_mag/MM-Mockup%20%28Default%29.jpg"><li>Mockups <span>►</span></li></a> <a target="_blank" href="http://www.mountainonline.com/stories/taos-amplified/"><li>Website <span>►</span></li></a>
+ 					<a target="_blank" href="https://dl.dropboxusercontent.com/u/16559126/see8ch.com/mountain_mag/MM-Mockup%20%28Default%29.jpg"><li>Mockups<span class="genericon genericon-dropbox"></span></li></a> <a target="_blank" href="http://www.mountainonline.com/stories/taos-amplified/"><li>Website<span class="genericon genericon-external"></span></li></a>
  				</ul>
 			</div>
 		</article>
@@ -113,7 +113,7 @@
 			<div class="description">
 				<!--<p></p>-->
 				<ul class="specs work">
- 					<a target="_blank" href="http://pres-outlook.org/"><li>Website <span>►</span></li></a>
+ 					<a target="_blank" href="http://pres-outlook.org/"><li>Website<span class="genericon genericon-external"></span></li></a>
  				</ul>
 			</div>
 		</article>
@@ -124,7 +124,7 @@
 			<div class="description">
 				<p>Best Education App - Best use of SendGrid API - Runner up for best use of ESRI API</p>
 				<ul class="specs work">
- 					<a target="_blank" href="http://www.tutorgrape.com"><li>Website<span>►</span></li></a>
+ 					<a target="_blank" href="http://www.tutorgrape.com"><li>Website<span class="genericon genericon-external"></span></li></a>
  				</ul>
 			</div>
 		</article>
@@ -134,7 +134,7 @@
 
 
 
-	<section id="resume-education">
+	<section id="references">
 		<h2>References</h2>
 		<article>
 			<h3 class="degree">Michael Arestad</h3>
@@ -162,7 +162,7 @@
 	</section>
 
 
-	<section id="resume-qualifications" class="contact-me">
+	<section id="closing" class="contact-me">
 		<h2>Let's meet!</h2>
 		<article>
 			<div class="specs qualifications contact-content">
@@ -172,7 +172,6 @@
 		</article>
 	</section>
 
-	<h1 class="thanks">Thank You!<br /><span>:)</span></h1>
 </div>
 
 

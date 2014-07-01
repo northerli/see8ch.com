@@ -1,6 +1,5 @@
 module.exports = function(grunt) {
 
-    // 1. All configuration goes here
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
@@ -54,16 +53,7 @@ module.exports = function(grunt) {
                 src: 'css/style_v1.2.css'
             },
         },
-        //connect: {
-        //    server: {
-        //        options: {
-        //            port: 8000,
-        //            base: './'
-        //         //   hostname: 'dev'
-        //        }
-        //    }
-        //},
-        // This is optional!
+
         notify_hooks: {
           options: {
             enabled: true,
@@ -91,7 +81,7 @@ module.exports = function(grunt) {
                 }
             },
             html: {
-                files: ['*.html', '**/*.html', '*.php', '**/*.php'],
+                files: ['*.html', '**/*.html', '*.php', '**/*.php', 'js/*.js'],
                 options: {
                     livereload: true,
                     spawn: false,
@@ -100,7 +90,6 @@ module.exports = function(grunt) {
         }
     });
 
-    // 3. Where we tell Grunt we plan to use this plug-in.
     grunt.loadNpmTasks('grunt-contrib-concat');     // concatenate
     grunt.loadNpmTasks('grunt-contrib-uglify');     // minify
     grunt.loadNpmTasks('grunt-contrib-imagemin');   // optimize images
@@ -110,8 +99,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-connect');        // Localhost Environment
     grunt.loadNpmTasks('grunt-notify');
 
-    // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['imagemin']);
-    grunt.registerTask('dev', ['watch']);
-//    grunt.registerTask('dev', ['connect', 'watch']);
+    grunt.registerTask('default', ['watch']);
 };

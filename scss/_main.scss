@@ -10,9 +10,9 @@ a {
 
 h1, h2, h3, h4, h5 {
 	color:$headline-color;
-	letter-spacing:0.21em;
+	letter-spacing:0.1em;
 	text-transform:uppercase;
-	@include lato-7;
+	@include lato-9;
 }
 
 h1 {font-size:4.15em;}
@@ -24,7 +24,7 @@ h5 {font-size:1em;}
 p {
 	font-size: 1.5em;
 	text-align:left;
-	@include os-3;
+	@include lato-3;
 }
 
 
@@ -36,8 +36,7 @@ body {
 	color:$body-copy-color;
 	background:$light-grey;
 	letter-spacing:0.06em;
-//	@include lato-4;
-	@include os-3;
+	@include lato-3;
 }
 
 
@@ -117,10 +116,11 @@ nav {
 		pointer-events:none;
 		position: absolute;
 		left: -32px;
-		top: 17px;
-		color:darken($grey, 10%);
-		font-size: 2em;
+		top:13px;
+  font-size:1.5em;
+		color:$red;//darken($grey, 10%);
 		@include lato-9;
+		@include responsive-big($bp-large) {font-size:100%;}
 
 		&:hover {color:$red;}
 	}
@@ -147,6 +147,7 @@ nav {
 			letter-spacing: 0.2em;
 			@include lato-4;
 			@include ease;
+			@include responsive-big($bp-large) {font-size:90%;}
 
 			// Nav Item Arrows
 			span {
@@ -227,6 +228,7 @@ nav {
 		bottom:-4px;
 		margin-right:3px;
 		font-size:2em;
+		@include responsive-big($bp-large) {font-size:140%;}
 	}
 	&:hover {
 		color:$orange;
@@ -257,8 +259,9 @@ body#home {
 		margin-bottom:8px;
 		margin-right:auto;
 		margin-left: auto;
-		color:$black;
-		letter-spacing: 0.2em;
+		color:$headline-color;//$black;
+		letter-spacing: 0.15em;
+		//font-weight: 700;
 }
 
 	h4 {
@@ -290,7 +293,7 @@ body#home {
 			letter-spacing: 0.2em;
 			font-size: 1em;
 			text-align: center;
-			@include lato-3;
+			@include lato-4;
 			@include ease;
 
 			@media screen and (max-width: $bp-mobile) {font-size:0.8em;}

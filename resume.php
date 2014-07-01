@@ -14,7 +14,7 @@
 	<section id="resume-intro">
 		<h1>CHRIS HOLDER<span>// User Friendly Design & Development</span></h1>
 		<p>I create inclusive systems that beautifully communicate a consistent message while maximizing usability and stimulating user engagement.</p>
-		<div class="icon">▼</div>
+		<div class="icon"><span class="genericon genericon-downarrow"></span></div>
 	</section>
 
 	<!-- Experience -->

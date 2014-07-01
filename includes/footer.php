@@ -1,24 +1,15 @@
-<!-- Footer Content -->
-<!-- <footer>
-  <p class="copyright">Copyright Year // Company Name</p>
-</footer> -->
 
-<!-- Go To Top Btn -->
-<!-- <a href="#" class="go-top ss-icon scroll">▲</a>  -->
 
          <!-- JavaScript  -->
-        <script src="//code.jquery.com/jquery-latest.min.js"></script>
         <script src="js/production.min.js"></script>
         <script src="js/retina.min.js"></script>
 
         <!-- FitText -->
         <script>
           jQuery("#home h1").fitText();
-          jQuery("#home h4").fitText(2.82);
+          jQuery("#home h4").fitText(2.6);
         </script>
 
-        <!-- Modernizr -->
-<!--        <script src="js/modernizr.js"></script> -->
 
         <!-- Google Analytics -->
         <script>
@@ -27,8 +18,9 @@
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          ga('create', 'UA-40198502-1', 'see8ch.com');
+          ga('create', 'UA-40198502-1', 'auto');
           ga('send', 'pageview');
+
         </script>
 
        <!-- IE outdate friendly warning -->

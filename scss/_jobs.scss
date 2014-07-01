@@ -1,37 +1,224 @@
 
+
+@keyframes cloud {
+  0%   { color:$grey; border-color:$grey; }
+  //50% { color:$blue; border-color:$blue; }
+  100%   { color:$blue; border-color:$blue; }
+}
+
+@keyframes cloud-2 {
+  0%   { color:$grey; border-color:$grey; }
+  //50% { color:$orange; border-color:$orange;}
+  100%   { color:$green; border-color:$green; }
+}
+
+@keyframes cloud-3 {
+  0%   { color:$grey; border-color:$grey; }
+  //50% { color:$orange; border-color:$orange;}
+  100%   { color:$orange; border-color:$orange; }
+}
+
+html.touch {
+  body#jobs {
+    header .overlay {background-attachment:scroll;}
+  }
+}
+
 // Jobs Pages
 body#jobs {
+  //background:white;
+
+  &.a8c nav {
+    background:none;
+    #nav-open {
+      svg .burger {fill:$grey;}
+    }
+    &.active {background:$black;}
+  }
+
+  #back-btn {display:none;}
+
   .content-wrapper {
     width:60%;
-    //max-width:750px;
-    @media screen and (max-width: 768px) {
-      width:70%;
+    @include responsive($bp-tablet) {width:70%;}
+    @include responsive($bp-mobile) {width:80%;}
+  }
+
+  //h1, h2, h3, h4, h5 {color:$navy;}
+
+
+
+  // --------- Header --------- //
+  header {
+    padding:24em 0 37em;//31vh 0 52vh;
+    text-align:center;
+    position:relative;
+    background:$blue;
+    background: rgba($blue, 0.6);//$green;//$orange;//#eee;//$blue;
+    overflow: hidden;
+    box-shadow:inset 0 -80px 150px 0 lighten($navy, 5%);
+    @include responsive-big($bp-large) {padding:35em 0 48em;}
+    @include responsive($bp-mobile) {padding:12em 0 18em;}
+    .overlay {
+      position:absolute;
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+      background:url('../images/a8c-bkgd@2x.jpg') center center fixed;
+      background-size:cover;
+      opacity: 1;
+      z-index: -1;
+    }
+    &:before,
+    &:after {
+      content:'';
+      position:absolute;
+      bottom:0;
+      height: 8em;
+      background:$light-grey;
+      width:80%;
+      z-index: 900;
+    }
+    &:before {
+      right:50%;
+      transform: skew(45deg);
+    }
+    &:after {
+      left:50%;
+      transform: skew(-45deg);
+    }
+    h1 {
+      color:white;
+      font-weight: 900;
+      margin-bottom: 0.5em;
+      text-shadow:2px 2px 0 $dark-blue;
+      @include responsive($bp-mobile) {font-size:2em;}
+      span {
+        color:$red;
+        text-shadow: none;
+        position:relative;
+        top:-0.1em;
+        font-size: 1.4em;
+        width: 0;
+        margin-left:-0.1em;
+        margin-right: 0.9em;
+      }
+    }
+    h4 {
+      color:white;
+      font-size: 1.8em;
+      font-family: 'Merriweather', serif;
+      font-style:italic;
+      font-weight: 300;
+      text-transform: none;
+      letter-spacing: 0.06em;
+      line-height: 1.6;
+      @include responsive($bp-mobile) {font-size:1.3em;}
     }
   }
 
-  .school {
-    &.contact {
-      margin-top:-10px;
+
+  // --------- Basic Layout --------- //
+  section {
+    padding:15em 0 7.5em;//20vh 0 10vh;
+    margin:0 auto;
+    @include responsive-big($bp-large) {padding:20em 0 10em;}
+    @include responsive($bp-mobile) {padding:7.5em 0 3.25em;}
+
+    h2 {
+      font-size:2.8em;
+      letter-spacing: 0.1em;
+      @media screen and (max-width: 500px) {font-size:2em;}
+    }
+    p {
+      font-size: 1.6em;
+      line-height: 1.8;
       color:$dark-grey;
-      a {
-        color:$dark-grey;
-        &:hover {
-          color:$orange;
+      font-family: 'Merriweather', serif;
+      font-weight: 300;
+    }
+    article {
+      padding-bottom:6em;
+      margin-bottom:6em;
+      &.hidden {display:none;}
+      .specs {
+        h5 {margin-right:5px;}
+        a {
+          margin-right:15px;
+          cursor:pointer;
+          li {
+            padding:1.2em 1.55em 1.1em 1.4em;
+            font-size:1.2em;
+            font-weight: 400;
+            border-color:#aaa;
+            color:#aaa;
+            //border-radius:5px;
+            @include ease;
+
+            span {
+              position:relative;
+              top:-5px;
+              height: 0;
+              margin-right:0;
+              margin-left:0.3em;
+              font-family: 'Genericons';
+              font-size:1.75em;
+              font-weight: inherit;
+              &.genericon-github,
+              &.genericon-cog {
+                font-size:1.4em;
+                top:-2px;
+                margin-left: 0.4em;
+              }
+            }
+            &:hover {
+              color:$orange;
+              border-color:$orange;
+            }
+            @media screen and (max-width: 767px) {
+              width:100%;
+              padding:10px 0;
+              margin-bottom:10px;
+              font-size:1.4em;
+              text-align: center;
+            }
+          }
+
+          &.preview-toggle {
+            li {
+              background:#f9f9f9;
+              color:$blue;
+              border-color:$blue;
+              &:hover {
+                color:$orange;
+                border-color:$orange;
+              }
+            }
+          }
+          &.active {
+            li {
+              color:$orange;
+              border-color:$orange;
+            }
+            span {
+              &:before {content: '\f404';}
+            }
+          }
         }
       }
     }
   }
-  section#resume-intro {
-    height:auto !important;
-    margin-bottom: 160px;
-    + section {
-      margin-bottom:60px;
-      h2 {margin-bottom:40px;}
-      article{
-        border:none;
-        .specs li {margin-bottom:8px;}
-      }
-    }
+
+  // --------- Intro Section --------- //
+  &.a8c #intro {
+    padding-top:30em;
+    @include responsive($bp-tablet) {padding-top:5em;}
+  }
+  #intro {
+    padding-top:10em;//20vh;
+    @include ease(666ms);
+
     img {
       position: relative;
       top:0;
@@ -42,105 +229,232 @@ body#jobs {
         top:-10px;
       }
     }
-    .content {
-      margin-top:20px;
-      font-size: 1.8em;
-      line-height: 1.6;
-      color:$dark-grey;
+
+    h2 {
+      font-size:2.75em;
+      line-height: 1.25em;
+      margin-bottom:0.3em;
+      padding-bottom: 0.3em;
+      @include responsive($bp-tablet) {font-size:2.25em;}
     }
-    .icon {bottom:-40px;}
+    .byline {
+      font-style:italic;
+      font-size: 1.75em;
+      margin-bottom: 1.4em;
+    }
+    .content {
+      margin-bottom: 2em;
+      font-size: 1.6em;
+      line-height: 1.8;
+      color:$dark-grey;
+      a {
+        display: inline-block;
+        color:$blue;//$orange;
+        span {
+          position:relative;
+          top:1px;
+          font-size:1.6em;//1.8em;
+          margin-right: 0.4em;
+          color:$blue;
+          @include ease;
+          @include responsive-big($bp-large) {margin-right:0.6em;}
+        }
+        &:hover {
+          color:$blue;//$orange;
+          span {
+            color:$dark-grey;
+            &.genericon-codepen {color:$black;}
+            &.genericon-twitter {color:$blue;}
+            &.genericon-instagram {color:$navy;}
+          }
+        }
+      }
+    }
     h4 {
       text-align: left;
-      color:$blue;
-      margin: 50px 0 -5px;
+      color:#777;
+      margin: 3.75em 0 1.75em;
+    }
+
+    // Scroll Animation
+    &.active {
+      padding-top:13em;
+      @include responsive($bp-tablet) {padding-top:5em;}
     }
   }
-  section {
+
+
+
+
+  // --------- Skills Section --------- //
+  #skills {
+    h2 {margin-bottom:1.5em;}// border:none;}
+    article {
+      padding-bottom:0;
+      border:none;
+      ul {
+        margin-bottom: 4em;
+        li {
+          color:$grey;//$grey;
+          border-color:$grey;//$grey;
+          font-weight:300;
+          font-size:1.5em;
+          padding:1.2em;
+          margin-right:0.5em;
+          margin-bottom:0.5em;
+          //@include ease(10s);
+          @include responsive($bp-mobile) {font-size:1.1em;}
+          &.design {
+            //animation:cloud 5s 1;
+            //color:$blue;
+            //border-color:$blue;
+          }
+          //&:nth-child(even) {
+          &.code {
+            //animation:cloud-2 5s 1;
+            //color:$green;
+            //border-color:$green;
+          }
+          &.extra {
+            //animation:cloud-3 5s 1;
+            //color:$orange;
+            //border-color:$orange;
+          }
+        }
+      }
+    }
+  }
+
+  // --------- Experience Section --------- //
+  #experience {
+    h2 {margin-bottom:2em;}
+    article:last-child {border:none;}
+    .more-link {
+      color:$blue;
+      font-size: 1.1em;
+      font-weight: 400;
+      border:1px solid $blue;
+      padding:1em 1.25em;
+      display: inline-block;
+      span {
+        height:0;
+        position:relative;
+        top:-2px;
+        margin-right:0.4em;
+      }
+      &:hover {
+        color:$orange;
+        border-color:$orange;
+      }
+    }
+    .position {
+      letter-spacing:0.1em;
+      color:$blue;//$grey;
+    }
+    .description p {
+      font-size:1.5em;
+      &.brag {
+        font-size:1.3em;
+        font-style: italic;
+        color:#aaa;
+        span {
+          position:relative;
+          top:-1px;
+          margin-right:0.25em;
+          font-size: 1.5em;
+          color:$yellow;
+        }
+      }
+    }
+    .preview {
+      width:100%;
+      height:0;
+      margin-top:0;
+      opacity: 0;
+      @include ease;
+      &.active {
+        height:auto;
+        margin-top:2em;
+        opacity: 1;
+        box-shadow:1px 1px 5px 0 lighten($dark-grey, 15%);
+      }
+    }
+  }
+
+
+  // --------- References Section --------- //
+  #references {
+    //margin-bottom: 20vh;
     h2 {
-      font-size:2.8em;
+      border-bottom: 1px solid #dedede;
+      text-align: left;
+      font-size: 2.8em;
+      margin-bottom: 2em;
       @media screen and (max-width: 500px) {font-size:2em;}
     }
-    p {
-      font-size: 1.7em;
-      color:$dark-grey;
-    }
     article {
-      padding-bottom:50px;
-      margin-bottom:50px;
-      .specs {
-        h5 {margin-right:5px;}
+      padding-bottom:4em;
+      margin-bottom: 4.5em;
+      h3, .school {text-align: left;}
+      h3 {
+        margin-bottom: 0.2em;
+      }
+    }
+    .school {
+      letter-spacing: 0.15em;
+      &.contact {
+        margin-top:-0.75em;
+        color:#bbb;//$dark-grey;
         a {
-          margin-right:15px;
-          li {
-            font-size:1.2em;
-            border-color:$orange;
+          color:#bbb;//$dark-grey;
+          margin-right:0.25em;
+          //font-family: 'Merriweather', serif;
+          &:hover {
             color:$orange;
-            @include ease;
-
-            span {
-              margin-right:0;
-              margin-left:3px;
-            }
-            &:hover {
-              color:$blue;
-              border-color:$blue;
-            }
-            @media screen and (max-width: 767px) {
-              width:100%;
-              padding:10px 0;
-              margin-bottom:10px;
-              font-size:1.4em;
-              text-align: center;
+          }
+          span {
+            display: none;
+            position:relative;
+            top:4px;
+            margin-right: 0.5em;
+            height:0;
+            color:#ccc;
+            font-size: 1.8em;
+            &.genericon-maximize {
+              font-size:2em;
+              top:3px;
+              margin-left: -0.15em;
             }
           }
         }
       }
     }
   }
-  section#resume-hire {
-    height: auto !important;
-    a {margin-bottom:20px;}
-  }
-  section#resume-experience {
-    //margin-bottom: 140px;
-    article:last-child {border:none;}
-  }
-  section#resume-education {
-    margin:160px auto 260px;
-    h2 {
-      border-bottom: 1px solid #dedede;
-      text-align: left;
-      font-size: 2.8em;
-      @media screen and (max-width: 500px) {font-size:2em;}
-    }
-    article {
-      h3,
-      .school {text-align: left;}
-    }
-  }
-  section.contact-me {
+
+  // --------- Closing Section --------- //
+  #closing {
     h2 {margin-bottom:5px !important;}
     article {
       border:none;
       .contact-content {
         a, span {
-          margin-right:0;
-          font-size:1.5em;
-          line-height: 1.5;
+          margin-right:0.25em;
+          font-size:1.3em;
+          line-height: 1.4;
         }
-        p {
-          //margin-top:5px;
-          margin-bottom:35px;
-        }
+        p {margin-bottom:35px;}
       }
     }
   }
+
+  // --------- Thanks Message --------- //
   .thanks {
     span {
       color:$grey;
       font-size: 0.5em;
       line-height: 7.5;
       letter-spacing: 0.3em;
+      transform: rotate(90deg);
     }
     @media screen and (max-width: 500px) {font-size:2em;}
   }

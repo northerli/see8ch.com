@@ -19,7 +19,7 @@
 
 
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,900,300,300italic,400italic,900italic,700italic' rel='stylesheet' type='text/css'>
 	<link href='fonts/genericons/genericons.css' rel='stylesheet' type='text/css'>
 
 	<link href='css/style_v1.2.css' rel='stylesheet' type='text/css'>
