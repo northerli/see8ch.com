@@ -68,7 +68,7 @@ $(document).ready(function(){resizeDiv();});
       $('#resume-hire-form').css({'margin-bottom': vph / 4 + 'px'});
       $('#hire-sent h2').css({'margin-top': vph / 2.8 + 'px'});
       //$('.thanks').css({'margin-bottom': vph / 2 - 100 + 'px'});
-      $('#closing').css({'padding-bottom': vph / 3.6 + 'px'});
+      $('#closing').css({'padding-bottom': vph / 3.5 + 'px'});
 
 
       // Work Images

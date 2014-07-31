@@ -7,7 +7,7 @@
         <!-- FitText -->
         <script>
           jQuery("#home h1").fitText();
-          jQuery("#home h4").fitText(2.6);
+          jQuery("#home h4").fitText(2.8);
         </script>
 
 

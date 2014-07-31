@@ -1,5 +1,5 @@
 <?php
-	$title = 'Hello Automattic! // Chris Holder';
+	$title = 'Hello 10up // Chris Holder';
 ?>
 
 <?php include('includes/head.php'); ?>
@@ -16,7 +16,7 @@
 <?php include('includes/nav.php'); ?>
 
 <header>
-	<h1>I <span class="genericon genericon-heart"></span> Automattic</h1>
+	<h1>I <span class="genericon genericon-heart"></span> 10up</h1>
 	<h4>I’m a big fan of your work, we should be friends…</h4>
 	<div class="overlay"></div>
 </header>

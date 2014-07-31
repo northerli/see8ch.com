@@ -3,7 +3,7 @@
 <head>
 		<title><?php echo $title; ?></title>
 		<meta charset="utf-8">
-		<meta name="description" content="User friendly designer and developer in Steamboat Springs, Colorado. I am all about the details and I love working on projects that require more complex problem solving or are in need of heavy information architecture." />
+		<meta name="description" content="User friendly designer and developer in Denver, Colorado. I am all about the details and I love working on projects that require more complex problem solving or are in need of heavy information architecture." />
 		<meta name="author" content="Chris Holder // chris@see8ch.com">
 		<meta name="keywords" content="Chris, Chris Holder, chris, chris holder, design, designer, graphic designer, developer, web, web developer, development, web development, interactive, interaction, interactive design, interaction design, interface, interface design, interface designer, user, user interface, user interface design, user interface designer, experience, user experience, user experience design, user experience designer, project, project management, technology, technologist, consultant, logo, branding, logo design, branding design, product, product design, denver, denver colorado, denver co, colorado, us, united states, wordpress, wordpress cms, cms, photoshop, illustrator, indesign, html, css, js, javascript, php, creative, creative suite, ios, ios dev, ios design, app, app design, app development" />
 

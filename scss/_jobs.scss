@@ -1,22 +1,5 @@
 
 
-@keyframes cloud {
-  0%   { color:$grey; border-color:$grey; }
-  //50% { color:$blue; border-color:$blue; }
-  100%   { color:$blue; border-color:$blue; }
-}
-
-@keyframes cloud-2 {
-  0%   { color:$grey; border-color:$grey; }
-  //50% { color:$orange; border-color:$orange;}
-  100%   { color:$green; border-color:$green; }
-}
-
-@keyframes cloud-3 {
-  0%   { color:$grey; border-color:$grey; }
-  //50% { color:$orange; border-color:$orange;}
-  100%   { color:$orange; border-color:$orange; }
-}
 
 html.touch {
   body#jobs {
@@ -103,6 +86,7 @@ body#jobs {
         width: 0;
         margin-left:-0.1em;
         margin-right: 0.9em;
+        width: 0.01em;
       }
     }
     h4 {
@@ -212,7 +196,7 @@ body#jobs {
 
   // --------- Intro Section --------- //
   &.a8c #intro {
-    padding-top:30em;
+    padding-top:40em;
     @include responsive($bp-tablet) {padding-top:5em;}
   }
   #intro {
@@ -264,7 +248,7 @@ body#jobs {
           span {
             color:$dark-grey;
             &.genericon-codepen {color:$black;}
-            &.genericon-twitter {color:$blue;}
+            &.genericon-twitter {color:#55ACEE;}//$blue;}
             &.genericon-instagram {color:$navy;}
           }
         }
@@ -295,31 +279,15 @@ body#jobs {
       ul {
         margin-bottom: 4em;
         li {
-          color:$grey;//$grey;
-          border-color:$grey;//$grey;
+          color:darken($grey, 5%);//$grey;
+          border-color:darken($grey, 5%);//$grey;
           font-weight:300;
           font-size:1.5em;
-          padding:1.2em;
+          padding:1.1em 1.2em;
           margin-right:0.5em;
           margin-bottom:0.5em;
           //@include ease(10s);
           @include responsive($bp-mobile) {font-size:1.1em;}
-          &.design {
-            //animation:cloud 5s 1;
-            //color:$blue;
-            //border-color:$blue;
-          }
-          //&:nth-child(even) {
-          &.code {
-            //animation:cloud-2 5s 1;
-            //color:$green;
-            //border-color:$green;
-          }
-          &.extra {
-            //animation:cloud-3 5s 1;
-            //color:$orange;
-            //border-color:$orange;
-          }
         }
       }
     }

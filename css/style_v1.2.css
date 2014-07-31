@@ -373,11 +373,12 @@ body#home h1 {
   max-width: 430px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   margin-right: auto;
   margin-left: auto;
   color: #666666;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
+  font-weight: 700;
 }
 @media screen and (max-width: 600px) {
   body#home h1 {
@@ -948,73 +949,6 @@ body#jobs section#resume-hire form input[type="submit"]:hover {
   color: #27a9e1;
 }
 
-@-webkit-keyframes cloud {
-  0% {
-    color: #cccccc;
-    border-color: #cccccc;
-  }
-
-  100% {
-    color: #27a9e1;
-    border-color: #27a9e1;
-  }
-}
-
-@keyframes cloud {
-  0% {
-    color: #cccccc;
-    border-color: #cccccc;
-  }
-
-  100% {
-    color: #27a9e1;
-    border-color: #27a9e1;
-  }
-}
-@-webkit-keyframes cloud-2 {
-  0% {
-    color: #cccccc;
-    border-color: #cccccc;
-  }
-
-  100% {
-    color: #2ecc71;
-    border-color: #2ecc71;
-  }
-}
-@keyframes cloud-2 {
-  0% {
-    color: #cccccc;
-    border-color: #cccccc;
-  }
-
-  100% {
-    color: #2ecc71;
-    border-color: #2ecc71;
-  }
-}
-@-webkit-keyframes cloud-3 {
-  0% {
-    color: #cccccc;
-    border-color: #cccccc;
-  }
-
-  100% {
-    color: #fd9638;
-    border-color: #fd9638;
-  }
-}
-@keyframes cloud-3 {
-  0% {
-    color: #cccccc;
-    border-color: #cccccc;
-  }
-
-  100% {
-    color: #fd9638;
-    border-color: #fd9638;
-  }
-}
 html.touch body#jobs header .overlay {
   background-attachment: scroll;
 }
@@ -1117,6 +1051,7 @@ body#jobs header h1 span {
   width: 0;
   margin-left: -0.1em;
   margin-right: 0.9em;
+  width: 0.01em;
 }
 body#jobs header h4 {
   color: white;
@@ -1231,7 +1166,7 @@ body#jobs section article .specs a.active span:before {
   content: '\f404';
 }
 body#jobs.a8c #intro {
-  padding-top: 30em;
+  padding-top: 40em;
 }
 @media screen and (max-width: 800px) {
   body#jobs.a8c #intro {
@@ -1304,7 +1239,7 @@ body#jobs #intro .content a:hover span.genericon-codepen {
   color: #333333;
 }
 body#jobs #intro .content a:hover span.genericon-twitter {
-  color: #27a9e1;
+  color: #55ACEE;
 }
 body#jobs #intro .content a:hover span.genericon-instagram {
   color: #34495e;
@@ -1333,11 +1268,11 @@ body#jobs #skills article ul {
   margin-bottom: 4em;
 }
 body#jobs #skills article ul li {
-  color: #cccccc;
-  border-color: #cccccc;
+  color: #bfbfbf;
+  border-color: #bfbfbf;
   font-weight: 300;
   font-size: 1.5em;
-  padding: 1.2em;
+  padding: 1.1em 1.2em;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
 }

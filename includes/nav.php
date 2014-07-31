@@ -13,6 +13,7 @@
 	</a>
 	<a id="nav-close">X</a>
 	<a href="work.php"><li>Work (Beta)<span>►</span></li></a>
+	<a href="http://blog.see8ch.com"><li>Blog<span>►</span></li></a>
 	<a href="http://codepen.io/see8ch" target="_blank"><li>Codepen<span>►</span></li></a>
 	<a href="https://github.com/see8ch" target="_blank"><li>Github<span>►</span></li></a>
 	<a href="http://twitter.com/see8ch" target="_blank"><li>Twitter<span>►</span></li></a>
