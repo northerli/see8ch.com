@@ -23,8 +23,8 @@
 
 		<!-- Begin Entry -->
 		<article>
-			<h3>Galvanize - gSchool</span></h3>
-			<p class="position">Instructor // <span>Denver // 2014-Current</span></p>
+			<h3>Galvanize</span></h3>
+			<p class="position">gSchool Instructor // <span>Denver // 2014-Current</span></p>
 			<div class="description">
 	 			<p>Currently teaching a 16 week Advanced WordPress Theme Development Workshop</p>
 			</div>
@@ -47,6 +47,15 @@
 					<li>Bevinco</li>
 					<li>Lexie Barnes</li>
 				</ul>
+		</article>
+
+		<!-- Begin Entry -->
+		<article>
+			<h3>Denver Public Library</span></h3>
+			<p class="position">devCamp Mentor // <span>Denver // 2014</span></p>
+			<div class="description">
+	 			<p>Taught basic HTML, CSS, and Javascript to middle and high school kids.</p>
+			</div>
 		</article>
 
 		<!-- Begin Entry -->
