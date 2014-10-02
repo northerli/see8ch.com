@@ -20,16 +20,13 @@
 	<!-- Experience -->
 	<section id="resume-experience">
 		<h2>Experience</h2>
+
 		<!-- Begin Entry -->
 		<article>
-			<h3>Making Colorado Creative Team</h3>
- 			<p class="position">Designer // <span>Colorado // 2013</span></p>
+			<h3>Galvanize - gSchool</span></h3>
+			<p class="position">Instructor // <span>Denver // 2014-Current</span></p>
 			<div class="description">
-				<p>I was selected as one of the twelve designers that best represented Colorado's talent to join the Making Colorado Creative Team led by Alex Bogusky of <a href="http://www.cpbgroup.com/" target="_blank">CP+B</a> and Dave Schiff of <a href="http://mademovement.com/" target="_blank">Made Movement</a>. The team was individually tasked with creating new identity system solutions for the State of Colorado.</p>
-				<ul class="specs work">
- 					<h5>The Process</h5><a href="http://www.makingcolorado.gov"><li>Making Colorado <span>►</span></li></a><br />
- 					<h5>The Final Identity</h5><a href="http://www.brandcolorado.gov"><li>Brand Colorado <span>►</span></li></a>
- 				</ul>
+	 			<p>Currently teaching a 16 week Advanced WordPress Theme Development Workshop</p>
 			</div>
 		</article>
 
@@ -42,14 +39,27 @@
 			</div>
 			<ul class="specs work">
 	 			<h5>Clients</h5>
-					<li>Spire</li>
+					<li>BLKDG</li>
 					<li>Cinearc</li>
-					<li>Nationwide</li>
-					<li>DirecTV</li>
+					<li>Clarkson Creative</li>
+					<li>Spire</li>
 					<li>Yoga-Dates</li>
 					<li>Bevinco</li>
 					<li>Lexie Barnes</li>
 				</ul>
+		</article>
+
+		<!-- Begin Entry -->
+		<article>
+			<h3>Making Colorado Creative Team</h3>
+ 			<p class="position">Designer // <span>Colorado // 2013</span></p>
+			<div class="description">
+				<p>I was selected as one of the twelve designers that best represented Colorado's talent to join the Making Colorado Creative Team led by Alex Bogusky of <a href="http://www.cpbgroup.com/" target="_blank">CP+B</a> and Dave Schiff of <a href="http://mademovement.com/" target="_blank">Made Movement</a>. The team was individually tasked with creating new identity system solutions for the State of Colorado.</p>
+				<ul class="specs work">
+ 					<h5>The Process</h5><a href="http://www.makingcolorado.gov"><li>Making Colorado <span>►</span></li></a><br />
+ 					<h5>The Final Identity</h5><a href="http://www.brandcolorado.gov"><li>Brand Colorado <span>►</span></li></a>
+ 				</ul>
+			</div>
 		</article>
 
 		<!-- Begin Entry -->
