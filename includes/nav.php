@@ -18,6 +18,7 @@
 	<a href="https://github.com/see8ch" target="_blank"><li>Github<span>►</span></li></a>
 	<a href="http://twitter.com/see8ch" target="_blank"><li>Twitter<span>►</span></li></a>
 	<a href="http://instagram.com/see8ch" target="_blank"><li>Instagram<span>►</span></li></a>
+	<a href="http://flickr.com/chrislholder" target="_blank"><li>Flickr<span>►</span></li></a>
 	<a href="http://www.linkedin.com/in/chrislholder/" target="_blank"><li>Linkedin<span>►</span></li></a>
 	<a href="mailto:chris@see8ch.com"><li>Email<span>►</span></li></a>
 	<a href="resume.php"><li>Resume<span>►</span></li></a>
