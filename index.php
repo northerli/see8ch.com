@@ -1,4 +1,4 @@
-test<?php
+<?php
 	$title = 'Chris Holder // User Friendly Designer & Developer';
 ?>
 
